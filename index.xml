@@ -4,6 +4,7 @@
 <title>aerobic</title>
 <thumbnail>http://i.imgur.com/9cCGxcK.png</thumbnail>
 <fanart>http://i.imgur.com/z3SIo3E.jpg</fanart>
+<link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/test1.xml</externallink>
 </item>
  
@@ -23,7 +24,7 @@
 <externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/zumba%20kid.xml</externallink>
 </item>
 
-item>
+<item>
 <title>just dance</title>
 <thumbnail>https://i.imgur.com/2vFL1nV.png</thumbnail>
 <fanart>https://i.imgur.com/w3TgSxe.jpg</fanart>
