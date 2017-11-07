@@ -89,16 +89,8 @@
 </item>
 
 <item>
-<title>[COLOR lime]Spinning[/COLOR]</title>
-<thumbnail>https://i.imgur.com/O18qjdI.png</thumbnail>
-<fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Spinning.xml</externallink>
-</item>
-
-<item>
  
-<title>[COLOR lime]]Spinnig[/COLOR]</title>
+<title>[COLOR lime]Spinnig[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
