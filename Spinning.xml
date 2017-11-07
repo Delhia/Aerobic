@@ -125,3 +125,38 @@
 <thumbnail>https://i.imgur.com/nX2T1rZ.png</thumbnail>
 <fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
 </item>
+
+<item>
+ 
+<title>[COLOR lime]+[/COLOR][COLOR white]spinning con regex [/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR lime]Spinning by delhia[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=-yRG_Gxn3II&amp;list=PLkzQ_gL7fD9TA_DMMPLyU9k4O5DjcGOFF</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/nX2T1rZ.png</thumbnail>
+<fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
+ 
+</item>
