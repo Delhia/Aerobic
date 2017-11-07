@@ -128,7 +128,7 @@
 
 <item>
  
-<title>[COLOR lime]+[/COLOR][COLOR white]spinning con regex [/COLOR]</title>
+<title>[COLOR lime]]Spinnig[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -138,7 +138,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR lime]Spinning by delhia[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR lime]Spinning [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
