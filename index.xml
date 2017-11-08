@@ -73,11 +73,38 @@
 </item>
 
 <item>
+ 
 <title>[COLOR pink]Piloxing[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink]Piloxing[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=nO_2wc00H5U&list=PLkzQ_gL7fD9RUCz1IXGyWgfDdGV7qlYWN</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
 <thumbnail>https://i.imgur.com/BLNmiaB.png</thumbnail>
 <fanart>https://i.imgur.com/rnXEVWj.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Piloxing.xml</externallink>
+ 
 </item>
 
 <item>
@@ -122,6 +149,8 @@
 <fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
  
 </item>
+
+
 
 
 
