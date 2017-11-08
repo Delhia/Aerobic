@@ -96,7 +96,7 @@
  
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
  
-            <page>https://www.youtube.com/watch?v=nO_2wc00H5U&list=PLkzQ_gL7fD9RUCz1IXGyWgfDdGV7qlYWN</page>
+            <page>https://www.youtube.com/watch?v=nO_2wc00H5U&amp;list=PLkzQ_gL7fD9RUCz1IXGyWgfDdGV7qlYWN</page>
  
              <cookieJar></cookieJar>
  
@@ -146,7 +146,7 @@
 </regex>
  
 <thumbnail>https://i.imgur.com/nX2T1rZ.png</thumbnail>
-<fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
+<fanart>https://i.imgur.com/O18qjdI.png</fanart>
  
 </item>
 
