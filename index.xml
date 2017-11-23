@@ -41,7 +41,42 @@
 </item>
 
 <item>
-<title>[COLOR pink]BODY COMBAT[/COLOR]</title>
+ 
+<title>[COLOR pink]yoga kids[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink]Yoga kids[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=LmzfT6Gv4fo&amp;list=PLkzQ_gL7fD9TORB1msehi9Aesnw9lHFmG</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/wKDUnAY.png</thumbnail>
+<fanart>https://img.grouponcdn.com/deal/5u8MNL6xUwke5fwyufMn/68-960x576/v1/c700x420.jpg</fanart>
+ 
+</item>
+
+<item>
+<title>[COLOR aqua]BODY COMBAT[/COLOR]</title>
 <thumbnail>https://i.imgur.com/cgjNo7H.png</thumbnail>
 <fanart>https://i.imgur.com/w02e6sM.jpg</fanart>
 <link>http://ignoreme</link>
@@ -49,7 +84,7 @@
 </item>
 
 <item>
-<title>[COLOR aqua]PILATES[/COLOR]</title>
+<title>[COLOR lime]PILATES[/COLOR]</title>
 <thumbnail>https://i.imgur.com/tMdp8NZ.png</thumbnail>
 <fanart>https://i.imgur.com/jzG5lzl.jpg</fanart>
 <link>http://ignoreme</link>
@@ -57,7 +92,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]YOGA[/COLOR]</title>
+<title>[COLOR gold]YOGA[/COLOR]</title>
 <thumbnail>https://i.imgur.com/zZ11Q5a.png</thumbnail>
 <fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
 <link>http://ignoreme</link>
@@ -65,7 +100,7 @@
 </item>
 
 <item>
-<title>[COLOR gold]Hipopresivos[/COLOR]</title>
+<title>[COLOR pink]Hipopresivos[/COLOR]</title>
 <thumbnail>https://i.imgur.com/VHjMMeS.png</thumbnail>
 <fanart>https://i.imgur.com/tDXnO5G.gif</fanart>
 <link>http://ignoreme</link>
@@ -74,7 +109,7 @@
 
 <item>
  
-<title>[COLOR pink]Piloxing[/COLOR]</title>
+<title>[COLOR aqua]Piloxing[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -108,7 +143,7 @@
 </item>
 
 <item>
-<title>[COLOR aqua]Eliptica[/COLOR]</title>
+<title>[COLOR lime]Eliptica[/COLOR]</title>
 <thumbnail>https://i.imgur.com/vq7gbE5.png</thumbnail>
 <fanart>https://i.imgur.com/4S9iqwW.jpg</fanart>
 <link>http://ignoreme</link>
@@ -117,7 +152,7 @@
 
 <item>
  
-<title>[COLOR lime]Spinnig[/COLOR]</title>
+<title>[COLOR gold]Spinnig[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
