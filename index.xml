@@ -56,9 +56,9 @@
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+                        <thumbnail></thumbnail>
  
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+                  <fanart></fanart>
  
             ]]></listrepeat>
  
