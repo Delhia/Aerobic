@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR aqua]ZONA Kids[/COLOR]</title>
+<thumbnail>https://i.imgur.com/tbUasn8.png</thumbnail>
+<fanarthttps://i.imgur.com/NVXpo9V.png></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+  
+<item>
+<title>[COLOR lime]ZUMBA KIDS[/COLOR]</title>
+<thumbnail>https://i.imgur.com/GT9MxPs.png</thumbnail>
+<fanart>https://i.pinimg.com/736x/8c/e4/e0/8ce4e0fa9c0ddf38c49166d7b7683f6b--zumba-kids-zumba-party.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/zumba%20kid.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR violet]JUST DANCE KIDS[/COLOR]</title>
+<thumbnail>https://i.imgur.com/rVSyNN2.png</thumbnail>
+<fanart>https://i.imgur.com/N8KTYhv.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Just%20dance%20kids.xml</externallink>
+</item>
+
+<item>
+ 
+<title>[COLOR pink]yoga kids[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink]Yoga kids[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail></thumbnail>
+ 
+                  <fanart></fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=LmzfT6Gv4fo&amp;list=PLkzQ_gL7fD9TORB1msehi9Aesnw9lHFmG</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/wKDUnAY.png</thumbnail>
+<fanart>https://img.grouponcdn.com/deal/5u8MNL6xUwke5fwyufMn/68-960x576/v1/c700x420.jpg</fanart>
+ 
+</item>
