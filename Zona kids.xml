@@ -17,7 +17,7 @@
 </item>
 
 <item>
-<title>[COLOR violet]JUST DANCE KIDS[/COLOR]</title>
+<title>[COLOR violel]JUST DANCE KIDS[/COLOR]</title>
 <thumbnail>https://i.imgur.com/rVSyNN2.png</thumbnail>
 <fanart>https://i.imgur.com/N8KTYhv.jpg</fanart>
 <link>http://ignoreme</link>
@@ -40,9 +40,9 @@
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
-                        <thumbnail></thumbnail>
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
  
-                  <fanart></fanart>
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
  
             ]]></listrepeat>
  
