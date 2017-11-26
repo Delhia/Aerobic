@@ -17,114 +17,32 @@
 </item>
 
 <item>
-<title>[COLOR ]BODY COMBAT[/COLOR]</title>
-<thumbnail>https://i.imgur.com/cgjNo7H.png</thumbnail>
-<fanart>https://i.imgur.com/w02e6sM.jpg</fanart>
+<title>[COLOR lime ]COMBAT[/COLOR]</title>
+<thumbnail>https://i.imgur.com/rrkukzY.jpg</thumbnail>
+<fanart>https://i.imgur.com/rrkukzY.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Body%20Combat.xml</externallink>
+<externallink></externallink>
 </item>
 
 <item>
-<title>[COLOR lime]PILATES[/COLOR]</title>
-<thumbnail>https://i.imgur.com/tMdp8NZ.png</thumbnail>
-<fanart>https://i.imgur.com/jzG5lzl.jpg</fanart>
+<title>[COLOR gold]INDOOR[/COLOR]</title>
+<thumbnail>https://i.imgur.com/FXRDejI.png</thumbnail>
+<fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/pilates.xml</externallink>
+<externallink></externallink>
 </item>
 
 <item>
-<title>[COLOR gold]YOGA[/COLOR]</title>
-<thumbnail>https://i.imgur.com/zZ11Q5a.png</thumbnail>
-<fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/yoga.xml</externallink>
-</item>
-
-<item>
-<title>[COLOR pink]Hipopresivos[/COLOR]</title>
+<title>[COLOR purple]Hipopresivos[/COLOR]</title>
 <thumbnail>https://i.imgur.com/VHjMMeS.png</thumbnail>
 <fanart>https://i.imgur.com/tDXnO5G.gif</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Hipopresivos.xml</externallink>
 </item>
 
-<item>
- 
-<title>[COLOR aqua]Piloxing[/COLOR]</title>
- 
-<link>$doregex[makelist]</link>
- 
-<regex>
- 
-            <name>makelist</name>
- 
-            <listrepeat><![CDATA[
- 
-                        <title>[COLOR pink]Piloxing[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
- 
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
- 
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- 
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
- 
-            ]]></listrepeat>
- 
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
- 
-            <page>https://www.youtube.com/watch?v=nO_2wc00H5U&amp;list=PLkzQ_gL7fD9RUCz1IXGyWgfDdGV7qlYWN</page>
- 
-             <cookieJar></cookieJar>
- 
-</regex>
- 
-<thumbnail>https://i.imgur.com/BLNmiaB.png</thumbnail>
-<fanart>https://i.imgur.com/rnXEVWj.jpg</fanart>
- 
-</item>
 
-<item>
-<title>[COLOR lime]Eliptica[/COLOR]</title>
-<thumbnail>https://i.imgur.com/vq7gbE5.png</thumbnail>
-<fanart>https://i.imgur.com/4S9iqwW.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Eliptica%20clases.xml</externallink>
-</item>
 
-<item>
- 
-<title>[COLOR gold]Spinnig[/COLOR]</title>
- 
-<link>$doregex[makelist]</link>
- 
-<regex>
- 
-            <name>makelist</name>
- 
-            <listrepeat><![CDATA[
- 
-                        <title>[COLOR lime]Spinning [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
- 
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
- 
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- 
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
- 
-            ]]></listrepeat>
- 
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
- 
-            <page>https://www.youtube.com/watch?v=-yRG_Gxn3II&amp;list=PLkzQ_gL7fD9TA_DMMPLyU9k4O5DjcGOFF</page>
- 
-             <cookieJar></cookieJar>
- 
-</regex>
- 
-<thumbnail>https://i.imgur.com/O18qjdI.png</thumbnail>
-<fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
- 
-</item>
+
 
 
 
