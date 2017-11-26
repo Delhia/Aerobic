@@ -17,19 +17,27 @@
 </item>
 
 <item>
-<title>[COLOR lime ]COMBAT[/COLOR]</title>
+<title>[COLOR lime ]ZONA COMBAT[/COLOR]</title>
 <thumbnail>https://i.imgur.com/rrkukzY.jpg</thumbnail>
 <fanart>https://i.imgur.com/rrkukzY.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20COMBAT.xml</externallink>
 </item>
 
 <item>
-<title>[COLOR gold]INDOOR[/COLOR]</title>
+<title>[COLOR gold]ZONA INDOOR[/COLOR]</title>
 <thumbnail>https://i.imgur.com/FXRDejI.png</thumbnail>
 <fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
 <link>http://ignoreme</link>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/CICLO%20INDOOR.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR purple]ZONA MEDITACION[/COLOR]</title>
+<thumbnail>https://i.imgur.com/HZ9vZx6.png</thumbnail>
+<fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20MEDITACION.xml</externallink>
 </item>
 
 <item>
