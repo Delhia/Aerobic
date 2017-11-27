@@ -20,7 +20,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR lime]Spinning [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR lime]Mega 5 semanas [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
@@ -55,7 +55,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR lime]Spinning [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR lime]Principiantes[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
