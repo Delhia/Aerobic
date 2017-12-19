@@ -69,3 +69,73 @@
 <fanart>https://i.imgur.com/lQ6RMTP.jpg</fanart>
  
 </item>
+
+<item>
+ 
+<title>[COLOR lime]ESTIMULACION TEMPRANA SINDROME DE DOWN[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=S0GAbTt8cDw&amp;list=PLkzQ_gL7fD9S9kLlPelMykuaA7Hymi3l5</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/Kgk9JW7.png</thumbnail>
+<fanart>https://i.imgur.com/UbgAJir.jpg</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR pink][/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+</item>
