@@ -2,7 +2,7 @@
 
 <item>
  
-<title>[pink]21 DIAS DE ADAPTACION AL DEPORTE[/COLOR]</title>
+<title>[COLOR pink]21 DIAS DE ADAPTACION AL DEPORTE[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -61,7 +61,7 @@
  
             <page><item>
  
-<title>[aqua]RUTINA DE EJERCICIOS[/COLOR]</title>
+<title>[COLOR aqua]RUTINA DE EJERCICIOS[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
