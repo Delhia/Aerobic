@@ -24,7 +24,7 @@
  
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
  
-            <page>https://www.youtube.com/watch?v=JnDu110SBN0&amo;list=PLkzQ_gL7fD9T0aGao-cLo8LrbYYN9ZWaQ</page>
+            <page>https://www.youtube.com/watch?v=JnDu110SBN0&amp;list=PLkzQ_gL7fD9T0aGao-cLo8LrbYYN9ZWaQ</page>
  
              <cookieJar></cookieJar>
  
@@ -60,7 +60,7 @@
  
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
  
-            <page>https://www.youtube.com/watch?v=dHc5_YzMNso&list=PLkzQ_gL7fD9RiMsQJdwfwPdJFwZiYAKVQ</page>
+            <page>https://www.youtube.com/watch?v=dHc5_YzMNso&amp;list=PLkzQ_gL7fD9RiMsQJdwfwPdJFwZiYAKVQ</page>
  
              <cookieJar></cookieJar>
  
