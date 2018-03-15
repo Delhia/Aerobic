@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+ 
+<title>[COLOR pink]BACHATA[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink]BACHATA[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=Z0CWRLv-n5k&amp;list=PL4SoLzju1HpUWfOMfcUnAIurLBB4m17NA</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>http://2.bp.blogspot.com/-J0K-Xuof0wE/Vk6WD7-sS3I/AAAAAAAAAAg/FHQwXZ8xkBE/s1600/bachata.png</thumbnail>
+<fanart>http://2.bp.blogspot.com/-J0K-Xuof0wE/Vk6WD7-sS3I/AAAAAAAAAAg/FHQwXZ8xkBE/s1600/bachata.png</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR aqua]BREAK DANCE[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR aqua][/COLOR]BREAK DANCE[COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=Dx4t9YumPfE&amp;list=PLkzQ_gL7fD9Q8z1YH_LbFbGUM9S4gbveY</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/xUD8Ezf.jpg</thumbnail>
+<fanart>https://i.imgur.com/xUD8Ezf.jpg</fanart>
+ 
+</item>
+
+
+<item>
+ 
+<title>[COLOR lime]CUMBIA[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR lime]CUMBIA[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=m3rDECWBxLA&amp;list=PLCJjuc5EiS8rULqnAhmaDAo2qCVMUfZgC</page>
+ 
+             <cookieJar>C</cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/xuah0HZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/xuah0HZ.jpg</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR gold]HIP HOP[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR gold]HIP HOP[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=KY9Tp84Tymg&amp;list=PL_jKFXUSJ-ES5sxs4rQdWBHghwH0hnBJE</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/qZMd23i.jpg</thumbnail>
+<fanart>https://i.imgur.com/qZMd23i.jpg</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR violet]KIZOMBA[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR violet]KIZOMBA[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=DtIMWZg9bRg&amp;list=PL_jKFXUSJ-ESyth0X6unxLIHH9pucCSZ5</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/raEWWyx.jpg</thumbnail>
+<fanart>https://i.imgur.com/raEWWyx.jpg</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR pink]MERENGUE[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink][/COLOR]MERENGUE[COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=nrJooOuf4N8&amp;list=PL431FF49A3CEAEA8D</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/IuAijVf.jpg</thumbnail>
+<fanart>https://i.imgur.com/IuAijVf.jpg</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR aqua]OSKORRI[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR aqua]OSKORRI[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=8fOZm98k3T8&amp;list=PL5637CF7347D31A9D</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/7dnhk4R.jpg</thumbnail>
+<fanart>https://i.imgur.com/7dnhk4R.jpg</fanart>
+ 
+</item>
+
+
+<item>
+ 
+<title>[COLOR lime]SALSA[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR lime]SALSA[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=qmxro3w79dw&amp;list=PLXTobIohjBt1Axz007RFi9VV6YUNOdQLc</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbw7ai5ZokRmXQDQezmDvs_EXlIBbRZMNoNOaARqEPTBtnSbR</thumbnail>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbw7ai5ZokRmXQDQezmDvs_EXlIBbRZMNoNOaARqEPTBtnSbR</fanart>
+ 
+</item>
+
+
+
+<item>
+ 
+<title>[COLOR gold]SEVILLANAS[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR gold]SEVILLANAS[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=DvLMLI7uAJo&amp;list=PLo2d3ptdDKtyROMCq8clQXct2Xh4E_v15</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/o3XoPyk.jpg</thumbnail>
+<fanart>https://i.imgur.com/o3XoPyk.jpg</fanart>
+ 
+</item>
+
+
+
+
+
+<item>
+ 
+<title>[COLOR violet]SHUFFLE[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR violet]SHUFFLE[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=t_XGnkfOLUY&amp;list=PLESS4G5nwSFqIlLLpadKcr3gvZirBoqRW</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/VKGBowl.jpg</thumbnail>
+<fanart>https://i.imgur.com/VKGBowl.jpg</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR pink]TANGO[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink]TANGO[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=iGlIcc6WjFs&amp;list=PLE6429A02A41694CC</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/zTYFW3w.jpg</thumbnail>
+<fanart>https://i.imgur.com/zTYFW3w.jpg</fanart>
+ 
+</item>
+
+
+
+<item>
+<title>[COLOR aqua]TORREZDANCE(BAILES VARIADOS)[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR white][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCs_eWcBrA51dK2uG2VyB3Pg/videos</page> para canales entero
+</regex>  
+<thumbnail>https://yt3.ggpht.com/-8GsACYASEAg/AAAAAAAAAAI/AAAAAAAAAAA/SovEUwEiFMM/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</thumbnail>
+<fanart>https://yt3.ggpht.com/-8GsACYASEAg/AAAAAAAAAAI/AAAAAAAAAAA/SovEUwEiFMM/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
+</item>
+
+
+
+<item>
+ 
+<title>[COLOR ][/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR ][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR ][/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR ][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR ][/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR ][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR ][/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR ][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR ][/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR ][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+</item>
+
