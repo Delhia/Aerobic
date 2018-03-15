@@ -24,7 +24,7 @@
  
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
  
-            <page>https://www.youtube.com/watch?v=IKMmmCQL5So&amo;list=PLkzQ_gL7fD9QgOGCgJIFs-WGYl_2x5_AR</page>
+            <page>https://www.youtube.com/watch?v=IKMmmCQL5So&amp;list=PLkzQ_gL7fD9QgOGCgJIFs-WGYl_2x5_AR</page>
  
              <cookieJar></cookieJar>
  
