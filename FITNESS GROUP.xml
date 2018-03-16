@@ -2,7 +2,7 @@
 
 <item>
  
-<title>[COLOR aqua ]STEP Z8[/COLOR]</title>
+<title>[COLOR aqua]STEP Z8[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -12,7 +12,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR aqua ]STEP Z8[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR aqua]STEP Z8[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
@@ -37,7 +37,7 @@
 
 <item>
  
-<title>[COLOR aqua ]STEP Z9[/COLOR]</title>
+<title>[COLOR aqua]STEP Z9[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -47,7 +47,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR aqua ]STEP Z9[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR aqua]STEP Z9[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
