@@ -1,94 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Calentamiento STEP</title>        
-<urlsolve>https://www.youtube.com/watch?v=ivOHjf9L6ts</urlsolve>
-<thumbnail>https://i.imgur.com/gXqToJ9.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Clase de AEROBIC en casa</title>        
-<urlsolve>https://www.youtube.com/watch?v=SZB2MxyBnPY</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Cómo no hacer clase de STEP</title>        
-<urlsolve>https://www.youtube.com/watch?v=2-5GMpQy90g</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Clase de STEP en casa básica - intermedia</title>        
-<urlsolve>https://www.youtube.com/watch?v=6xcVFkBmHJQ</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Masterclass de AEROBICS Avanzado</title>        
-<urlsolve>https://www.youtube.com/watch?v=d9PVASWH92Q&list=PL7BuAXmUS-InE-HlzcFdU_DX1L8k3Bclk&index=6</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Clase de STEP en casa "método avanzado</title>        
-<urlsolve>https://www.youtube.com/watch?v=hafqq4w7bDA</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Clase de STEP TRAINING "TBC</title>        
-<urlsolve>https://www.youtube.com/watch?v=-nPQD5EOdek</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Clase de AEROBIC en casa nivel intermedio</title>        
-<urlsolve>https://www.youtube.com/watch?time_continue=1&v=ccoWC5weCVE</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Clase de FUNK AEROBICS</title>        
-<urlsolve>https://www.youtube.com/watch?v=Ju2e14_gjbc</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://i.imgur.com/gkIMO2n.jpg</fanart>
-</item>
-
-<item>
-<title>20 minutos de STEP avanzado</title>        
-<urlsolve>https://www.youtube.com/watch?v=hJK34yBXfi8</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://i.imgur.com/gkIMO2n.jpg</fanart>
-</item>
-
-<item>
-<title>Clase de PILATES FUSIÓN</title>        
-<urlsolve>https://www.youtube.com/watch?v=GI1kAygEPIQ</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://i.imgur.com/gkIMO2n.jpg</fanart>
-</item>
-
-<item>
-<title>desarrollo basico de 32 tiempos</title>        
-<urlsolve>https://www.youtube.com/watch?v=vJMX6DDOLzU</urlsolve>
-<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
-</item>
-
-<item>
-<title>Estiramientos de todo el cuerpo para después del entrenamiento</title>        
-<urlsolve>https://www.youtube.com/watch?v=YQQfhILVR7c</urlsolve>
-<thumbnail>https://i.imgur.com/k1KcbhC.png</thumbnail>
-<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+ 
+<title>[COLOR pink]CESAR MILLAN[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR ][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
 </item>
 
 <item>
