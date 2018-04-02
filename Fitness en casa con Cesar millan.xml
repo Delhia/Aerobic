@@ -12,7 +12,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR ][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR pink]CESAR MILLAN[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
@@ -24,14 +24,14 @@
  
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
  
-            <page></page>
+            <page>https://www.youtube.com/watch?v=LfkCDICpy_Y&amp;list=PLkzQ_gL7fD9Tlx5EGpkk39zLyu0RSv_qo</page>
  
              <cookieJar></cookieJar>
  
 </regex>
  
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://i.imgur.com/Vpl2Smb.jpg</thumbnail>
+<fanart>https://i.imgur.com/Vpl2Smb.jpg</fanart>
  
 </item>
 

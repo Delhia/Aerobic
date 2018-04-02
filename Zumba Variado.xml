@@ -1,221 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Despacito</title>        
-<urlsolve>https://www.youtube.com/watch?v=Q4a9uwV4nmo</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
+<title>[COLOR blue]ZUMBA with Dovydas CANAL[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCOjZigyo_fg2V7JdGwePSwg/videos</page> para canales entero
+</regex>  
+<thumbnail>https://i.imgur.com/bmH1cIw.jpg</thumbnail>
+<fanart>https://i.imgur.com/bmH1cIw.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR blue]FitDance Life[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCFu2moE2kAMkd5TxfE6fTVg/videos</page> para canales entero
+</regex>  
+<thumbnail>https://i.imgur.com/ho5szsO.jpg</thumbnail>
+<fanart>https://i.imgur.com/ho5szsO.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR blue]]ZUMBA RedStudio[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UC-2WWk_2TkYzYM2dW8UCcXQ/videos</page> para canales entero
+</regex>  
+<thumbnail>https://i.imgur.com/1DfNu5s.jpg</thumbnail>
+<fanart>https://i.imgur.com/1DfNu5s.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR blue]Saskia's Dansschool[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/user/saskiasdansschool/videos</page> para canales entero
+</regex>  
+<thumbnail>https://i.imgur.com/4YKixWZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/4YKixWZ.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR blue]Tássio Santos[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCV98TebI9gY-Iw9HnumwPBA/videos</page> para canales entero
+</regex>  
+<thumbnail>https://i.imgur.com/Z9StQB1.jpg</thumbnail>
+<fanart>https://i.imgur.com/Z9StQB1.jpg</fanart>
+</item>
+
+<item>
+ 
+<title>[COLOR blue]Zumba Variado[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR blue]Zumba Variado[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=Gv3qfNDpEQs&list=PLkzQ_gL7fD9S87zLOkyq1Mvsy7OvkfxBP</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+
+ <thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
 <fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
+ 
 </item>
 
-<item>
-<title>(AS IF IT'S YOUR LAST) - BlackPink</title>        
-<urlsolve>https://www.youtube.com/watch?v=KZfydefKfiU</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
 
-<item>
-<title>Sia - The Greatest</title>        
-<urlsolve>https://www.youtube.com/watch?v=CHzLuKRgnjc</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>http://www.elcarmenysanjose.com/wp-content/uploads/2014/10/ZUMBA.jpg</fanart>
-</item>
 
-<item>
-<title>La Bicicleta</title>        
-<urlsolve>https://www.youtube.com/watch?v=BJ5b0WkxbbI</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
 
-<item>
-<title>Vive Y Baila</title>        
-<urlsolve>https://www.youtube.com/watch?v=_qDk9_yWv7o</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
 
-<item>
-<title>Shape Of You</title>        
-<urlsolve>https://www.youtube.com/watch?v=LLV5SOYQirE</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Promise bachata zumba</title>        
-<urlsolve>https://www.youtube.com/watch?v=ZZvpXbZsmGo</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Propuesta Indecente</title>        
-<urlsolve>https://www.youtube.com/watch?v=piMhmzgycQk</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>ZUMBA Sia - Cheap Thrills Ft. Sean Paul</title>        
-<urlsolve>https://www.youtube.com/watch?v=wMVx9ICtvww</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Zumba Fitness World Party - LIMBO</title>        
-<urlsolve>https://www.youtube.com/watch?v=6UHUD9c5AKg&list=PLri9n4ltExedf9tflWJPO2s0KtNoWp4TX</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>BATUCADA DANCE </title>        
-<urlsolve>https://www.youtube.com/watch?v=FB75KZKf9L8&list=PLri9n4ltExedf9tflWJPO2s0KtNoWp4TX&index=4</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Ai Se Eu Te Pego - Michel Teló</title>        
-<urlsolve>https://www.youtube.com/watch?v=9FBsH4o8bWM</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Best Compilation of Zumba Dance Full 1 hour Session</title>        
-<urlsolve>https://www.youtube.com/watch?v=XkqdfbDq0bs</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Top Zumba Dance Compilation</title>        
-<urlsolve>https://www.youtube.com/watch?v=lxv5jnwqt0s</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Zumba Warm-up on Sean Paul She Doesn't Mind Remix by Vijaya</title>        
-<urlsolve>https://www.youtube.com/watch?v=xfmHPW-AfQs&list=RDlxv5jnwqt0s&index=3</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Uptown Funk" by Zumba</title>        
-<urlsolve>https://www.youtube.com/watch?v=BM3Z7hi0o8U&index=5&list=RDlxv5jnwqt0s</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Me Enamoré - Shakira - Marlon Alves Dance MAs Zumba</title>        
-<urlsolve>https://www.youtube.com/watch?v=l7kEFvhGkXM</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Toca Toca</title>        
-<urlsolve>https://www.youtube.com/watch?v=vrGDMp0TdQM</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>ZUMBA FITNESS BACHATA / DARTE UN BESO</title>        
-<urlsolve>https://www.youtube.com/watch?v=Cwosh3gzqlA</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title>Z4 MIX DEMBOW</title>        
-<urlsolve>https://www.youtube.com/watch?v=UdnrDFL_Bks</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Travesuras - Nicky Jam Marlon Alves DanceMAs Equipe MAs</title>        
-<urlsolve>https://www.youtube.com/watch?v=nr38y6nTuUI&index=5&list=RDW4dKRkGuwO4</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Felices los 4 - Maluma - Marlon Alves MAs - Zumba</title>        
-<urlsolve>https://www.youtube.com/watch?v=oo_b1_YytjU&list=RDW4dKRkGuwO4&index=7</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title>Top Zumba Dance Compilation (Full Session - Clear Music)</title>        
-<urlsolve>https://www.youtube.com/watch?v=lxv5jnwqt0s</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Best Compilation of Zumba Dance Full 1 hour Session</title>        
-<urlsolve>https://www.youtube.com/watch?v=XkqdfbDq0bs</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Playito zumba</title>        
-<urlsolve>https://www.youtube.com/watch?v=5iAUv0gw3ns</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Mayor Que Yo</title>        
-<urlsolve>https://www.youtube.com/watch?v=mVebAMb02C4</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>ANACONDA' Nicki Minaj</title>        
-<urlsolve>https://www.youtube.com/watch?v=kN6mf_v5wjU</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>30 minutos reggeaton zumba</title>        
-<urlsolve>https://www.youtube.com/watch?v=-nZUklTYHdY</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>Daddy Yankee - Hula Hoop</title>        
-<urlsolve>https://www.youtube.com/watch?v=FwWOxbQwXzs</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>PSY-DADDY Zumba</title>        
-<urlsolve>https://www.youtube.com/watch?v=PYBidJMPl70</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
-
-<item>
-<title>ROMEO SANTOS - IMITADORA</title>        
-<urlsolve>https://www.youtube.com/watch?v=S_GH7eUGBCk</urlsolve>
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-</item>
 
 <item>
 <title></title>        
