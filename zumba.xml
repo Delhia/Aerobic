@@ -44,10 +44,39 @@
 </item>
 
 <item>
-<title>[COLOR lime]Kpopx fitness[/COLOR]</title>
-<thumbnail>https://i.imgur.com/K7k6nYE.png</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Kpopx%20fitness.xml</externallink>
+ 
+<title>[COLOR lime]KPOK FITNESS[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR lime]KPOP FITNESS[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=Sz5ovbwhHWo&amp;list=PLkzQ_gL7fD9TLOY_OhyvqkBmW-o7c2In3</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/rx2brnF.jpg</thumbnail>
+<fanart>https://i.imgur.com/rx2brnF.jpg</fanart>
+ 
 </item>
+
+
 

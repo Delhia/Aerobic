@@ -35,7 +35,7 @@
 </item>
  
 <item>
-<title>[COLOR blue]]ZUMBA RedStudio[/COLOR]</title>
+<title>[COLOR blue]ZUMBA RedStudio[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
