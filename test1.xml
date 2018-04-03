@@ -44,11 +44,23 @@
 </item>
 
 <item>
-<title>[COLOR lime]Aerobic Step Variado[/COLOR]</title>
-<thumbnail>https://i.imgur.com/PBk5NX1.jpg</thumbnail>
-<fanart>https://i.imgur.com/0xzAKoW.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Aerobic%20Step%20Variado.xml</externallink>
+<title>[COLOR lime]AERIBIC STEP VARIADO[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime]AERIBIC STEP VARIADO[/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+    <fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.?)".?\n.?\n.?\n.?\n.?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=ivOHjf9L6ts&amp;list=PLkzQ_gL7fD9S4GQtjH3Yq3mLWVOVhJbo3</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.imgur.com/PBk5NX1.jpg</thumbnail>
+    <fanart>https://i.imgur.com/PqT8nYO.png</fanart>
 </item>
 
 <item>
