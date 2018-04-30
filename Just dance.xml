@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-
-
 <item>
-<title>JUST DANCE</title>
+ 
+<title>[COLOR yellow]JUST DANCE[/COLOR]</title>
+ 
 <link>$doregex[makelist]</link>
+ 
 <regex>
+ 
             <name>makelist</name>
+ 
             <listrepeat><![CDATA[
-                          <title>JUST DANCE</title>
+ 
+                        <title>[COLOR yellow]JUST DANCE[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-    <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
             ]]></listrepeat>
-            <expres>data-video-title="(.?)".?\n.?\n.?\n.?\n.?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
             <page>https://www.youtube.com/watch?v=YIdstjOGuLM&amp;list=PLkzQ_gL7fD9TvfmHVo0pyTB8_TXfZuRKY</page>
+ 
              <cookieJar></cookieJar>
+ 
 </regex>
  
- <thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-    <fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
+<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
+<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
+ 
 </item>
+
+
 
 <item>
 <title>[COLOR yellow]MAKOLUDAZ FDC[/COLOR]</title>
@@ -30,7 +45,7 @@
 <title>[COLOR yellow]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+<fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCsYGPdJIvsECx6DG0pRsEog/videos</page> para canales entero

@@ -120,40 +120,7 @@
  
 </item>
 
-<item>
- 
-<title>[COLOR blue]Zumba Variado[/COLOR]</title>
- 
-<link>$doregex[makelist]</link>
- 
-<regex>
- 
-            <name>makelist</name>
- 
-            <listrepeat><![CDATA[
- 
-                        <title>[COLOR blue]Zumba Variado[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
- 
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
- 
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- 
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
- 
-            ]]></listrepeat>
- 
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
- 
-            <page>https://www.youtube.com/watch?v=Gv3qfNDpEQs&amp;list=PLkzQ_gL7fD9S87zLOkyq1Mvsy7OvkfxBP</page>
- 
-             <cookieJar></cookieJar>
- 
-</regex>
- 
-<thumbnail>https://i.imgur.com/J9i2w2M.jpg</thumbnail>
-<fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
- 
-</item>
+
 
 
 
