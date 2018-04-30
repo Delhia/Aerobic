@@ -8,17 +8,17 @@
 <regex>
             <name>makelist</name>
             <listrepeat><![CDATA[
-                          <title>Aerobic</title>
+                          <title>JUST DANCE</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
-    <fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+                       <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+    <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.?)".?\n.?\n.?\n.?\n.?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
             <page>https://www.youtube.com/watch?v=YIdstjOGuLM&amp;list=PLkzQ_gL7fD9TvfmHVo0pyTB8_TXfZuRKY</page>
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail>https://www.youtube.com/watch?v=YIdstjOGuLM&list=PLkzQ_gL7fD9TvfmHVo0pyTB8_TXfZuRKY</thumbnail>
+ <thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
     <fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
 </item>
 
