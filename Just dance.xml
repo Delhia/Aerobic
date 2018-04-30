@@ -1,221 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+
+
 <item>
-<title>PLAYING WITH FIRE </title>        
-<urlsolve>https://www.youtube.com/watch?v=YIdstjOGuLM</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
+<title>JUST DANCE</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>Aerobic</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+    <fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.?)".?\n.?\n.?\n.?\n.?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=YIdstjOGuLM&amp;list=PLkzQ_gL7fD9TvfmHVo0pyTB8_TXfZuRKY</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://www.youtube.com/watch?v=YIdstjOGuLM&list=PLkzQ_gL7fD9TvfmHVo0pyTB8_TXfZuRKY</thumbnail>
+    <fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
 </item>
 
 <item>
-<title>Exo - Growl </title>        
-<urlsolve>https://www.youtube.com/watch?v=VQIgzz3gyl0</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png </thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
+<title>[COLOR yellow]MAKOLUDAZ FDC[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[ 
+<title>[COLOR yellow]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://expresobrasilia.files.wordpress.com/2011/05/zona-infantil1.png</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCsYGPdJIvsECx6DG0pRsEog/videos</page> para canales entero
+</regex> 
+<thumbnail>https://i.imgur.com/HtpvZnV.jpg</thumbnail>
+<fanart>https://i.imgur.com/HtpvZnV.jpg</fanart>
 </item>
 
-<item>
-<title>Justin Bieber - Sorry </title>        
-<urlsolve>https://www.youtube.com/watch?v=ZlfkbXCIzes</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
 
-<item>
-<title>Don't Recall | K.A.R.D </title>        
-<urlsolve>https://www.youtube.com/watch?v=j9bImerfBpc</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png </thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>KPOP! - BLACKPINK></title>        
-<urlsolve>https://www.youtube.com/watch?v=dl8f75wjOG0</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Girls' Generation - Mr.Mr. | Kpop</title>        
-<urlsolve>https://www.youtube.com/watch?v=teBtmxpmgzE&list=RDdl8f75wjOG0&index=9></urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Fantastic Baby</title>        
-<urlsolve>https://www.youtube.com/watch?v=EkRINiIUhD8&list=RDdl8f75wjOG0&index=11</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>BLACKPINK "마지막처럼 (AS IF IT'S YOUR LAST)</title>        
-<urlsolve>https://www.youtube.com/watch?v=1t1dgeo9c7s</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>BLACKPINK - Boombayah</title>        
-<urlsolve>https://www.youtube.com/watch?v=dl8f75wjOG0</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Just Dance 2017: Cheap Thrills</title>        
-<urlsolve>https://www.youtube.com/watch?v=sUcVtOzCf1g</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>JustDance - Despacito (Fan Made</title>        
-<urlsolve>https://www.youtube.com/watch?v=wROXAqKrjfU</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Bang Bang</title>        
-<urlsolve>https://www.youtube.com/watch?v=OhvQtH7kpyk&index=13&list=RDgWYafzO8fjY</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Limbo - Daddy Yankee</title>        
-<urlsolve>https://www.youtube.com/watch?v=B1vg46gEI8E</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Waka Waka</title>        
-<urlsolve>https://www.youtube.com/watch?v=YqyCyB9rpzA</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Shape of you - Ed Sheeran</title>        
-<urlsolve>https://www.youtube.com/watch?v=SgFFBFOsUes</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Bang Bang</title>        
-<urlsolve>https://www.youtube.com/watch?v=7_dq94AOQc8&index=14&list=RDpI90ou61ZlQ</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Poker Face' by Lady Gaga </title>        
-<urlsolve>https://www.youtube.com/watch?v=Y8Igyzx3-QU</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Bad Romance</title>        
-<urlsolve>https://www.youtube.com/watch?v=pI90ou61ZlQ</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Toca Toca</title>        
-<urlsolve>https://www.youtube.com/watch?v=wA7-cWwKDII</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Get Ugly" Jason Derulo</title>        
-<urlsolve>https://www.youtube.com/watch?v=mzutic6ZKIA&index=9&list=RDwA7-cWwKDII</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Fireball" Pitbull ft. John Ryan</title>        
-<urlsolve>https://www.youtube.com/watch?v=XR80UsqSZsw&index=19&list=RDwA7-cWwKDII</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Don't Let Me Down" The Chainsmokers ft. Daya </title>        
-<urlsolve>https://www.youtube.com/watch?v=w-4_VStfpM8&list=RDwA7-cWwKDII&index=24</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>The Fox</title>        
-<urlsolve>https://www.youtube.com/watch?v=UU0AtBzAlYY</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>I Will Survive - Gloria Gaynor</title>        
-<urlsolve>https://www.youtube.com/watch?v=OiCb37iAMq8</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Flashdance What A Feeling</title>        
-<urlsolve>https://www.youtube.com/watch?v=ACh8K9q96P8</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>dirty dancing</title>        
-<urlsolve>https://www.youtube.com/watch?v=I7FCRuGbgkQ</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Heal The World</title>        
-<urlsolve>https://www.youtube.com/watch?v=u8WTASW6gF0</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Wanna Be</title>        
-<urlsolve>https://www.youtube.com/watch?v=M7Ruqj-HS48</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Single Ladies</title>        
-<urlsolve>https://www.youtube.com/watch?v=ucKE-7Xg2TU</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Umbrella</title>        
-<urlsolve>https://www.youtube.com/watch?v=roEKnIhQIB4</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
-
-<item>
-<title>Mambo No 5</title>        
-<urlsolve>https://www.youtube.com/watch?v=z_Sv7IQwBGo</urlsolve>
-<thumbnail>https://i.imgur.com/NnP8Bvj.png</thumbnail>
-<fanart>https://ubistatic19-a.akamaihd.net/ubicomstatic/sv-se/global/search-thumbnail/jd15_vignette_750_422_4_mobile_161605.jpg</fanart>
-</item>
 
 <item>
 <title></title>        
