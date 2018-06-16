@@ -30,7 +30,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR VIOLET][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR VIOLET][/COLOR][COLOR violet]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
