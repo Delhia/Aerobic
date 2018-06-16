@@ -20,7 +20,7 @@
 
 <item>
  
-<title>[COLOR violet]BODY BALNCE[/COLOR]</title>
+<title>[COLOR violet]BODY BALANCE[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -42,7 +42,7 @@
  
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
  
-            <page>https://www.youtube.com/watch?v=43L1AbRsOhQ&list=PLkzQ_gL7fD9SREzdMXWHEnOW3kz1ZtAQQ</page>
+            <page>https://www.youtube.com/watch?v=43L1AbRsOhQ&amp;list=PLkzQ_gL7fD9SREzdMXWHEnOW3kz1ZtAQQ</page>
  
              <cookieJar></cookieJar>
  
