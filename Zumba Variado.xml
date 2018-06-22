@@ -18,7 +18,7 @@
 </item>
  
 <item>
-<title>[COLOR blue]FitDance Life[/COLOR]</title>
+<title>[COLOR lime]FitDance Life[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
@@ -35,7 +35,7 @@
 </item>
  
 <item>
-<title>[COLOR blue]ZUMBA RedStudio[/COLOR]</title>
+<title>[COLOR gold]ZUMBA RedStudio[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
@@ -52,7 +52,7 @@
 </item>
  
 <item>
-<title>[COLOR blue]Saskia's Dansschool[/COLOR]</title>
+<title>[COLOR violet]Saskia's Dansschool[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
@@ -69,7 +69,7 @@
 </item>
 
 <item>
-<title>[COLOR blue]Tássio Santos[/COLOR]</title>
+<title>[COLOR pink]Tássio Santos[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
@@ -122,7 +122,7 @@
 
 <item>
  
-<title>[COLOR gold]Zumba Step[/COLOR]</title>
+<title>[COLOR lime]Zumba Step[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -132,7 +132,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR gold]ZUMBA STEP[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR lime]ZUMBA STEP[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
@@ -157,7 +157,7 @@
 
 <item>
  
-<title>[COLOR violet]Zumba Strong[/COLOR]</title>
+<title>[COLOR gold]Zumba Strong[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -167,7 +167,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR violet]ZUMBA STRONG[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR gold]ZUMBA STRONG[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
