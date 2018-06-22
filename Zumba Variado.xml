@@ -5,7 +5,7 @@
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
-<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<title>[COLOR white][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/bmH1cIw.jpg</fanart>
@@ -22,7 +22,7 @@
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
-<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<title>[COLOR white][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/ho5szsO.jpg</fanart>
@@ -39,7 +39,7 @@
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
-<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<title>[COLOR white][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/1DfNu5s.jpg</fanart>
@@ -56,7 +56,7 @@
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
-<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<title>[COLOR white][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/4YKixWZ.jpg</fanart>
@@ -73,7 +73,7 @@
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
-<title>[COLOR blue][makelist.param1][/COLOR]</title>
+<title>[COLOR white][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/Z9StQB1.jpg</fanart>
@@ -119,6 +119,78 @@
 <fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
  
 </item>
+
+<item>
+ 
+<title>[COLOR gold]Zumba Step[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR gold]ZUMBA STEP[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=5ydTnFZtkb4&amp;list=PLkzQ_gL7fD9TeDeN9cegE6bZZFNlZdWz9</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/xEEWGhu.png</thumbnail>
+<fanart>https://i.imgur.com/TetXDbb.jpg</fanart>
+ 
+</item>
+
+<item>
+ 
+<title>[COLOR violet]Zumba Strong[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR violet]ZUMBA STRONG[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=kILnhdTbG3k&amplist=PLkzQ_gL7fD9Q-59UO0acq6ovEE4qdjbQS</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/b0ZVwer.jpg</thumbnail>
+<fanart>https://i.imgur.com/72mnZSD.jpg</fanart>
+ 
+</item>
+
+
 
 
 
