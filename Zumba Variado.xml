@@ -179,7 +179,7 @@
  
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
  
-            <page>https://www.youtube.com/watch?v=kILnhdTbG3k&amplist=PLkzQ_gL7fD9Q-59UO0acq6ovEE4qdjbQS</page>
+            <page>https://www.youtube.com/watch?v=kILnhdTbG3k&amp;list=PLkzQ_gL7fD9Q-59UO0acq6ovEE4qdjbQS</page>
  
              <cookieJar></cookieJar>
  
