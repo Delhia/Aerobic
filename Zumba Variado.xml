@@ -190,6 +190,41 @@
  
 </item>
 
+<item>
+ 
+<title>[COLOR violet]FITNESS DANCE FLAMENCO[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR violet][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar>https://www.youtube.com/watch?v=v063rikP_j8&amp;list=PLkzQ_gL7fD9TTisSVqBeC2s00FgDwlFZd</cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/0oyv0vf.jpg</thumbnail>
+<fanart>https://i.imgur.com/0oyv0vf.jpg</fanart>
+ 
+</item>
+
 
 
 
