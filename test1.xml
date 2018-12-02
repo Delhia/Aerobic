@@ -36,7 +36,26 @@
 </item>
 
 <item>
-<title>[COLOR aqua]FITNESS GROUP[/COLOR]</title>
+<title>[COLOR aqua]ANTON ZYUKIN (STEP)[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR aqua][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/4OZNlpc.jpg</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/channel/UCAI2l5egGGIUcRzM4RmweDQ/videos</page> para canales entero
+</regex>  
+<thumbnail>https://i.imgur.com/4OZNlpc.jpg</thumbnail>
+<fanart>https://i.imgur.com/4OZNlpc.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR lime]FITNESS GROUP[/COLOR]</title>
 <thumbnail>https://i.imgur.com/MU8M8hO.jpg</thumbnail>
 <fanart>https://i.imgur.com/L1NIAHW.jpg</fanart>
 <link>http://ignoreme</link>
@@ -45,7 +64,7 @@
 
 <item>
  
-<title>[COLOR lime]AEROBIC STEP VARIADO[/COLOR]</title>
+<title>[COLOR gold]AEROBIC STEP VARIADO[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -55,7 +74,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR lime]AEROBIC STEP VARIADO[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR gold]AEROBIC STEP VARIADO[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  

@@ -13,7 +13,7 @@
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCOjZigyo_fg2V7JdGwePSwg/videos</page> para canales entero
 </regex>  
-<thumbnail>https://i.imgur.com/bmH1cIw.jpg</thumbnail>
+<thumbnail>https://www.youtube.com/channel/UCOjZigyo_fg2V7JdGwePSwg/videos https://i.imgur.com/bmH1cIw.jpg</thumbnail>
 <fanart>https://i.imgur.com/bmH1cIw.jpg</fanart>
 </item>
  

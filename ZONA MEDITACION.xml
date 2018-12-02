@@ -52,3 +52,38 @@
 <fanart>https://i.imgur.com/FDmOvfm.jpg</fanart>
  
 </item>
+
+<item>
+ 
+<title>[COLOR pink]ESPALDA SNANA[/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR pink][/COLOR][COLOR pink]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page>https://www.youtube.com/watch?v=4J4wZcgMA_Eamp;&list=PLkzQ_gL7fD9RDWu6AYX63lFtxDUqvBqM_</page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/ysk94lZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/ysk94lZ.jpg</fanart>
+ 
+</item>
