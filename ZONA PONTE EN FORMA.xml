@@ -24,7 +24,7 @@
 
 
 <item>
-<title>[COLOR pink]Hipopresivos[/COLOR]</title>
+<title>[COLOR blue]Hipopresivos[/COLOR]</title>
 <thumbnail>https://i.imgur.com/VHjMMeS.png</thumbnail>
 <fanart>https://i.imgur.com/3i6np5I.gif</fanart>
 <link>http://ignoreme</link>
@@ -33,7 +33,7 @@
 
 <item>
  
-<title>[COLOR pink]MEGA 5 SEMANAS - programa de ejercicios[/COLOR]</title>
+<title>[COLOR lime]MEGA 5 SEMANAS - programa de ejercicios[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -43,7 +43,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR pink]Mega 5 semanas [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR lime]Mega 5 semanas [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
@@ -68,7 +68,7 @@
 
 <item>
  
-<title>[COLOR pink]Programa para PRINCIPIANTES 2017[/COLOR]</title>
+<title>[COLOR gold]PROGRAMA PARA PRINCIPIANTES 2017[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -78,7 +78,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR pink]Principiantes[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR gold]Principiantes[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
@@ -102,7 +102,7 @@
 </item>
 
 <item>
-<title>[COLOR pink]ADIOS NAVIDAD,HOLA OPERACION BIKINI[/COLOR]</title>
+<title>[COLOR violet]ADIOS NAVIDAD,HOLA OPERACION BIKINI[/COLOR]</title>
 <thumbnail>https://i.imgur.com/1tmRMjJ.jpg</thumbnail>
 <fanart>https://i.imgur.com/40IAdAq.jpg</fanart>
 <link>http://ignoreme</link>
