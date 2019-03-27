@@ -35,14 +35,6 @@
 </item>
 
 <item>
-<title>[COLOR violet]ZONA MEDITACION[/COLOR]</title>
-<thumbnail>https://i.imgur.com/QOyGR5T.png</thumbnail>
-<fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20MEDITACION.xml</externallink>
-</item>
-
-<item>
 <title>[COLOR pink]ZONA GYM VIRTUAL[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
@@ -58,6 +50,17 @@
 <thumbnail>https://i.imgur.com/hRznN7Z.jpg</thumbnail>
 <fanart>https://i.imgur.com/hRznN7Z.jpg</fanart>
 </item>
+
+
+<item>
+<title>[COLOR violet]ZONA MEDITACION[/COLOR]</title>
+<thumbnail>https://i.imgur.com/QOyGR5T.png</thumbnail>
+<fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ZONA%20MEDITACION.xml</externallink>
+</item>
+
+
 
 <item>
 <title>[COLOR aqua]INTEGRA SPORT[/COLOR]</title>
