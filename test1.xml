@@ -43,13 +43,13 @@
 <title>[COLOR aqua][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/4OZNlpc.jpg</fanart>
+<fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
 <page>https://www.youtube.com/channel/UCAI2l5egGGIUcRzM4RmweDQ/videos</page> para canales entero
 </regex>  
-<thumbnail>https://i.imgur.com/4OZNlpc.jpg</thumbnail>
-<fanart>https://i.imgur.com/4OZNlpc.jpg</fanart>
+<thumbnail>https://i.imgur.com/MnXjBMq.jpg</thumbnail>
+<fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
 </item>
 
 
