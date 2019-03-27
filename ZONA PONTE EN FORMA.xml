@@ -33,7 +33,7 @@
 
 <item>
  
-<title>[COLOR blue]MEGA 5 SEMANAS - programa de ejercicios[/COLOR]</title>
+<title>[COLOR pink]MEGA 5 SEMANAS - programa de ejercicios[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -43,7 +43,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR lime]Mega 5 semanas [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR pink]Mega 5 semanas [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
@@ -68,7 +68,7 @@
 
 <item>
  
-<title>[COLOR lime]Programa para PRINCIPIANTES 2017[/COLOR]</title>
+<title>[COLOR pink]Programa para PRINCIPIANTES 2017[/COLOR]</title>
  
 <link>$doregex[makelist]</link>
  
@@ -78,7 +78,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR lime]Principiantes[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR pink]Principiantes[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
