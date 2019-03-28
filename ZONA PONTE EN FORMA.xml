@@ -4,11 +4,11 @@
 
 
 <item>
-<title>[COLOR pink]ZONA GYM VIRTUAL[/COLOR]</title>
+<title>[COLOR fuchsia]ZONA GYM VIRTUAL[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
-<title>[COLOR pink][makelist.param1][/COLOR]</title>
+<title>[COLOR fuchsia][makelist.param1][/COLOR]</title>
 <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
 <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/hRznN7Z.jpg</fanart>
@@ -22,92 +22,6 @@
 
 
 
-
-<item>
-<title>[COLOR blue]Hipopresivos[/COLOR]</title>
-<thumbnail>https://i.imgur.com/VHjMMeS.png</thumbnail>
-<fanart>https://i.imgur.com/3i6np5I.gif</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Hipopresivos.xml</externallink>
-</item>
-
-<item>
- 
-<title>[COLOR lime]MEGA 5 SEMANAS - programa de ejercicios[/COLOR]</title>
- 
-<link>$doregex[makelist]</link>
- 
-<regex>
- 
-            <name>makelist</name>
- 
-            <listrepeat><![CDATA[
- 
-                        <title>[COLOR lime]Mega 5 semanas [/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
- 
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
- 
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- 
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
- 
-            ]]></listrepeat>
- 
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
- 
-            <page>https://www.youtube.com/watch?v=o6gTqYgf92E&amp;list=PLNH7cFJ42PKioTF42lJeMblG9uTgs6cM8</page>
- 
-             <cookieJar></cookieJar>
- 
-</regex>
- 
-<thumbnail>https://i.imgur.com/8a9LSB0.jpg</thumbnail>
-<fanart>https://i.imgur.com/8a9LSB0.jpg</fanart>
- 
-</item>
-
-<item>
- 
-<title>[COLOR gold]PROGRAMA PARA PRINCIPIANTES 2017[/COLOR]</title>
- 
-<link>$doregex[makelist]</link>
- 
-<regex>
- 
-            <name>makelist</name>
- 
-            <listrepeat><![CDATA[
- 
-                        <title>[COLOR gold]Principiantes[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
- 
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
- 
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- 
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
- 
-            ]]></listrepeat>
- 
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
- 
-            <page>https://www.youtube.com/watch?v=LMXOqd7w-7s&amp;list=PLNH7cFJ42PKhXjRK_MwS5USxrlYomx8Nk</page>
- 
-             <cookieJar></cookieJar>
- 
-</regex>
- 
-<thumbnail>https://i.imgur.com/8a9LSB0.jpg</thumbnail>
-<fanart>https://i.imgur.com/8a9LSB0.jpg</fanart>
- 
-</item>
-
-<item>
-<title>[COLOR violet]ADIOS NAVIDAD,HOLA OPERACION BIKINI[/COLOR]</title>
-<thumbnail>https://i.imgur.com/1tmRMjJ.jpg</thumbnail>
-<fanart>https://i.imgur.com/40IAdAq.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/ADIOS%20NAVIDAD%2CHOLA%20OPERACION%20BIKINI.xml</externallink>
-</item>
 
 <item>
 <title></title>        
