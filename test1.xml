@@ -46,7 +46,7 @@
 <fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCAI2l5egGGIUcRzM4RmweDQ/videos</page> para canales entero
+<page>https://www.youtube.com/channel/UCJf6BKCYWFynhbosUFh3AqA/videos</page> para canales entero
 </regex>  
 <thumbnail>https://i.imgur.com/MnXjBMq.jpg</thumbnail>
 <fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
