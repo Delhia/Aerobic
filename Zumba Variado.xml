@@ -97,7 +97,7 @@
  
             <listrepeat><![CDATA[
  
-                        <title>[COLOR blue]Zumba Variado[/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+                        <title>[COLOR white]—[makelist.param1][/COLOR]</title>
  
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
  
