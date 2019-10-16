@@ -1,0 +1,20 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[COLOR violet]FISIOTERAPIA A TU ALCANCE[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR white ][makelist.param1][/COLOR]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
+]]></listrepeat>
+<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
+<page>https://www.youtube.com/user/Fisitoterapialcance/videos</page> 
+</regex>  
+<thumbnail>https://i.imgur.com/YGttUZj.jpg</thumbnail>
+<fanart>https://i.imgur.com/ge6skdc.jpg</fanart>
+</item>
