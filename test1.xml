@@ -46,7 +46,7 @@
 <fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/c/AntonZyukinFitnessPride/videos</page> 
+<page>https://www.youtube.com/watch?v=p0XIdh_Qe4E&list=UUJf6BKCYWFynhbosUFh3AqA&index=1</page> 
 </regex>  
 <thumbnail>https://i.imgur.com/MnXjBMq.jpg</thumbnail>
 <fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
