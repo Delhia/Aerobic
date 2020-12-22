@@ -31,7 +31,7 @@
 <thumbnail>https://i.imgur.com/YGttUZj.jpg</thumbnail> 
 <fanart>https://i.imgur.com/YGttUZj.jpg</fanart>
  ]]></listrepeat>
- <expres><![CDATA[#$pyFunction url ='https://www.youtube.com/channel/UCRL5LNzLe0AsDB9V9kE5sAg'
+ <expres><![CDATA[#$pyFunction url ='https://www.youtube.com/c/Fisioterapiaatualcance/videos'
 import re,requests,xbmc def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl if '=' in url[:7]: if 'canal' in url[:7]: s2 = url + '2018Cristalazul' url = re.findall('(http.*?)2018Cristalazul', s2)[0] html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html) elif 'lista' in url[:7]: s2 = url + '2018Cristalazul' url = re.findall('(http.*?)2018Cristalazul', s2)[0] html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html) elif 'enlace' in url[:7]: s2 = url + '2018Cristalazul' url = re.findall('(http.*?)2018Cristalazul', s2)[0] titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0] html = url + '2018CristalAzul' enlace = re.findall('v=(.*?)2018CristalAzul', html)[0] return [(titulo, enlace)] else: return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)") elif 'channel' in url: html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html) elif 'youtube.com/c/' in url: html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html) elif 'youtube.com/user' in url: html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html) elif 'list' in url: html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html) else: titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0] html = url + '2018CristalAzul' enlace = re.findall('v=(.*?)2018CristalAzul', html)[0] return [(titulo, enlace)] ]]></expres> <page></page> </regex> <regex> <name>id</name> <expres><![CDATA[#$pyFunction import resolveurl def GetLSProData(page_data,Cookie_Jar,m): url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]' return resolveurl.resolve(url) 
 ]]></expres> 
 <page></page> 
@@ -43,7 +43,7 @@ import re,requests,xbmc def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLIt
  
  
  <item>
-<title>[B]COLOR violet]FISIOTERAPIA A TU ALCANCE[/COLOR][/B]</title>   CANAL ENTERO
+<title>[B][COLOR violet]FISIOTERAPIA A TU ALCANCE[/COLOR][/B]</title>   CANAL ENTERO
 <link>$doregex[makelist]</link>
 <regex>
  <name>makelist</name>
@@ -54,7 +54,7 @@ import re,requests,xbmc def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLIt
 <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCRL5LNzLe0AsDB9V9kE5sAg</page>
+<page>https://www.youtube.com/c/Fisioterapiaatualcance/videos</page>
 </regex>  
 <regex>
 <name>id</name>
