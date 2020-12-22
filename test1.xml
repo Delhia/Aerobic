@@ -90,7 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=p0XIdh_Qe4E&list=UUJf6BKCYWFynhbosUFh3AqA&index=1'
+url = 'https://www.youtube.com/channel/UCJf6BKCYWFynhbosUFh3AqA'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -171,7 +171,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]AEROBIC STEP VARIADO[/COLOR[/B]</title>
+<title>[B][COLOR gold]AEROBIC STEP VARIADO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -182,7 +182,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=ivOHjf9L6ts&amp;list=PLkzQ_gL7fD9S4GQtjH3Yq3mLWVOVhJbo3'
+url = 'https://www.youtube.com/watch?v=ivOHjf9L6ts&list=PLkzQ_gL7fD9S4GQtjH3Yq3mLWVOVhJbo3'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
