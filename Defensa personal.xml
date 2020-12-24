@@ -10,7 +10,7 @@
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=O6n8mHY8TJo&list=PL-WHuiw9GA8CDBJzqvfYCP66jbq2k1hL7'
@@ -84,7 +84,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=P67nE-dFHh8&llist=PL-WHuiw9GA8CiydEIiT0ydKN_MPokCX3b'
@@ -158,7 +158,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=6032eND5dAY&amp;list=PL-WHuiw9GA8C53a0oBTNxH3_sa6ixsErC'
@@ -230,7 +230,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jp</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=uSpdB14fpYY&list=PL-WHuiw9GA8D0kiMpiqfzmqvVkex_1ySW'
@@ -296,7 +296,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][/COLOR][COLOR gold]Krav Maga en Español. Técnicas y Consejos.[/B]</title>
+<title>[B][COLOR gold]Krav Maga en Español. Técnicas y Consejos.[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -304,7 +304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jp</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=yCso8J6MnbM&llist=PL-WHuiw9GA8A-Hv9LPQMsYPGSDrDu4ig9'
@@ -368,7 +368,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR gold]Defensa Personal Callejera, Técnica defensiva dentro de un Coche.[/B]</title>
+<title>[B][COLOR gold]Defensa Personal Callejera, Técnica defensiva dentro de un Coche.[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -376,7 +376,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jp</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=NybLNZTR9t8&list=PL-WHuiw9GA8AyFjQReW9UBhDJeiR-lOf4'
@@ -444,7 +444,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]Aprende a defenderte[/B]</title>
+<title>[B][COLOR gold]Aprende a defenderte[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -512,11 +512,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
-<fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jp</fanart>
 </item>
 
 <item>
-<title>[B][COLOR gold]Defensa personal[/B]</title>
+<title>[B][COLOR gold]Defensa personal[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -524,7 +524,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jp</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=tECb9eXCOR0&list=PLkzQ_gL7fD9Tf8AFlpqgE86BCKKZrEBPY'
@@ -586,45 +586,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 </item>
-<item>
- 
-<title>[COLOR gold][/COLOR]</title>
- 
-<link>$doregex[makelist]</link>
- 
-<regex>
- 
-            <name>makelist</name>
- 
-            <listrepeat><![CDATA[
- 
-                        <title>[COLOR][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
- 
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
- 
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- 
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
- 
-            ]]></listrepeat>
- 
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
- 
-            <page></page>
- 
-             <cookieJar></cookieJar>
- 
-</regex>
- 
-<thumbnail></thumbnail>
-<fanart></fanart>
- 
-</item>
 
- 
-</item>
 <item>
-<title>[B][COLOR gold]defensa personal;Consejos[/B]</title>
+<title>[B][COLOR gold]Defensa personal.Consejos[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -632,7 +596,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/sToFk4g.jp</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=kfH1fumzji0&;list=PLkzQ_gL7fD9QLKpWbh0hcM3c3GiRymc8I'
@@ -694,6 +658,42 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 </item>
+ 
+<item>
+ 
+<title>[COLOR gold][/COLOR]</title>
+ 
+<link>$doregex[makelist]</link>
+ 
+<regex>
+ 
+            <name>makelist</name>
+ 
+            <listrepeat><![CDATA[
+ 
+                        <title>[COLOR][/COLOR][COLOR white]—[makelist.param1][/COLOR]</title>
+ 
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+ 
+                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ 
+                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+            ]]></listrepeat>
+ 
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+            <page></page>
+ 
+             <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail></thumbnail>
+<fanart></fanart>
+ 
+</item>
+
 <item>
  
 <title>[COLOR gold][/COLOR]</title>
