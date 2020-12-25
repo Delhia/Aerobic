@@ -13,7 +13,7 @@
 <fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/user/Fisitoterapialcance/videos</page> 
+<page>https://www.youtube.com/channel/UCRL5LNzLe0AsDB9V9kE5sAg</page> 
 </regex>  
 <thumbnail>https://i.imgur.com/YGttUZj.jpg</thumbnail>
 <fanart>https://i.imgur.com/YGttUZj.jpg</fanart>
@@ -30,10 +30,10 @@
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.pinimg.com/736x/8c/e4/e0/8ce4e0fa9c0ddf38c49166d7b7683f6b--zumba-kids-zumba-party.jpg</fanart>
+<fanart>https://i.imgur.com/YGttUZj.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/channel/UCRL5LNzLe0AsDB9V9kE5sAg'
+url = 'https://www.youtube.com/user/Fisitoterapialcance/videos'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
