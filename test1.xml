@@ -90,7 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/channel/UCJf6BKCYWFynhbosUFh3AqA'
+url = 'https://www.youtube.com/c/AntonZyukinFitnessPride/videos'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -162,8 +162,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
 ]]></listrepeat>
 <expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCJf6BKCYWFynhbosUFh3AqA</page>
-</regex>  
+<page>https://www.youtube.com/c/AntonZyukinFitnessPride/videos</page>  
 <regex>
 <name>id</name>
 <expres><![CDATA[#$pyFunction
