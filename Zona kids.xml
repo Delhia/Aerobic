@@ -79,7 +79,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
 <item>
 <title>[B][COLOR violet]JUST DANCE KIDS[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
