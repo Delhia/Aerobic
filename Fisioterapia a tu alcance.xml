@@ -2,22 +2,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-<item>
-<title>[COLOR violet]FISIOTERAPIA A TU ALCANCE[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[  
-<title>[COLOR white ][makelist.param1][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/MnXjBMq.jpg</fanart>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCRL5LNzLe0AsDB9V9kE5sAg</page> 
-</regex>  
-<thumbnail>https://i.imgur.com/YGttUZj.jpg</thumbnail>
-<fanart>https://i.imgur.com/YGttUZj.jpg</fanart>
-</item>
+
 
 
 
@@ -33,7 +18,7 @@
 <fanart>https://i.imgur.com/YGttUZj.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/user/Fisitoterapialcance/videos'
+url = 'https://www.youtube.com/user/Fisitoterapialcance'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  

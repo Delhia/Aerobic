@@ -13,7 +13,7 @@
 <fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/channel/UCOjZigyo_fg2V7JdGwePSwg/videos'
+url = 'https://www.youtube.com/channel/UCOjZigyo_fg2V7JdGwePSwg'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -92,7 +92,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/channel/UCFu2moE2kAMkd5TxfE6fTVg/videos'
+url = 'https://www.youtube.com/channel/UCFu2moE2kAMkd5TxfE6fTVg'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -168,7 +168,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/channel/UC-2WWk_2TkYzYM2dW8UCcXQ/videos'
+url = 'https://www.youtube.com/channel/UC-2WWk_2TkYzYM2dW8UCcXQ'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -245,7 +245,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/user/saskiasdansschool/videos'
+url = 'https://www.youtube.com/user/saskiasdansschool'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -322,7 +322,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/channel/UCV98TebI9gY-Iw9HnumwPBA/videos'
+url = 'https://www.youtube.com/channel/UCV98TebI9gY-Iw9HnumwPBA'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -627,7 +627,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/aaXl856.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = ''
+url = 'https://youtube.com/playlist?list=PLkzQ_gL7fD9SRz31aQnkvZYhqvkSRjJN3'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -683,7 +683,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>https://i.imgur.com/aaXl856.jpg</thumbnail>
 <fanart>https://i.imgur.com/aaXl856.jpg</fanart>
 </item>
 
@@ -700,7 +700,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = ''
+url = 'https://youtube.com/playlist?list=PLkzQ_gL7fD9S-WgnTToZIjxqCHjv24aCQ'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
