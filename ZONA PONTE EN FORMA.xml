@@ -3,22 +3,7 @@
 <SetViewMode>503</SetViewMode>
 
 
-<item>
-<title>[COLOR fuchsia]GYMVIRTUAL BY PATRY JORDAN[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[  
-<title>[COLOR fuchsia][makelist.param1][/COLOR]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/hRznN7Z.jpg</fanart>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCfwP2H1CDJvssk6g2pm8EgA</page> para canales entero
-</regex>  
-<thumbnail>https://i.imgur.com/hRznN7Z.jpg</thumbnail>
-<fanart>https://i.imgur.com/hRznN7Z.jpg</fanart>
-</item>
+
 
 
 <item>
