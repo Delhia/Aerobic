@@ -19,7 +19,7 @@
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+<fanart>https://i.imgur.com/w02e6sM.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=NmMRFWIokK4&list=PLkzQ_gL7fD9SRbycXA02LD8A_sL0c_ZNS'
@@ -78,8 +78,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+<thumbnail>https://i.imgur.com/w02e6sM.jpg</thumbnail>
+<fanart>https://i.imgur.com/w02e6sM.jpg</fanart>
 </item>
 
 
