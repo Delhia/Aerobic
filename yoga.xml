@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>MalovaElena</title>
-<thumbnail>https://i.imgur.com/foFaT1N.png</thumbnail>
-<fanart>https://i.imgur.com/thFqi6t.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/MalovaElena.xml</externallink>
-</item>
+
 
 
 <item>
@@ -18,7 +12,7 @@
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/thFqi6t.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/c/MalovaElena'
@@ -84,13 +78,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>Xuan Lan Yoga</title>
-<thumbnail>https://i.imgur.com/f2vd9W3.png</thumbnail>
-<fanart>https://i.imgur.com/thFqi6t.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Xuan%20Lan%20Yoga.xml</externallink>
-</item>
+
 
 <item>
 <title>[B][COLOR pink]Xuan Lan Yoga[/COLOR][/B]</title>
@@ -101,7 +89,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/thFqi6t.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/c/XuanLanYoga'
