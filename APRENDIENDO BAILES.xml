@@ -13,7 +13,7 @@
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>http://2.bp.blogspot.com/-J0K-Xuof0wE/Vk6WD7-sS3I/AAAAAAAAAAg/FHQwXZ8xkBE/s1600/bachata.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=Z0CWRLv-n5k&list=PL4SoLzju1HpUWfOMfcUnAIurLBB4m17NA'
@@ -89,7 +89,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/xUD8Ezf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=Dx4t9YumPfE&list=PLkzQ_gL7fD9Q8z1YH_LbFbGUM9S4gbveY'
@@ -163,7 +163,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/xuah0HZ.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=m3rDECWBxLA&list=PLCJjuc5EiS8rULqnAhmaDAo2qCVMUfZgC'
@@ -236,7 +236,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/qZMd23i.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=KY9Tp84Tymg&list=PL_jKFXUSJ-ES5sxs4rQdWBHghwH0hnBJE'
@@ -312,7 +312,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/raEWWyx.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=DtIMWZg9bRg&list=PL_jKFXUSJ-ESyth0X6unxLIHH9pucCSZ5'
@@ -377,40 +377,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
- 
-<title>[COLOR pink]MERENGUE[/COLOR]</title>
- 
-<link>$doregex[makelist]</link>
- 
-<regex>
- 
-            <name>makelist</name>
- 
-            <listrepeat><![CDATA[
- 
-                        <title>[COLOR pink][/COLOR]MERENGUE[COLOR white]—[makelist.param1][/COLOR]</title>
- 
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
- 
-                        <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- 
-                  <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
- 
-            ]]></listrepeat>
- 
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
- 
-            <page>https://www.youtube.com/watch?v=nrJooOuf4N8&amp;list=PL431FF49A3CEAEA8D</page>
- 
-             <cookieJar></cookieJar>
- 
-</regex>
- 
-<thumbnail>https://i.imgur.com/IuAijVf.jpg</thumbnail>
-<fanart>https://i.imgur.com/IuAijVf.jpg</fanart>
- 
-</item>
+
 
 <item>
 <title>[B][COLOR pink]MERENGUE[/COLOR][/B]</title>
@@ -421,10 +388,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/IuAijVf.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=nrJooOuf4N8&amp;list=PL431FF49A3CEAEA8D'
+url = 'https://www.youtube.com/watch?v=nrJooOuf4N8&list=PL431FF49A3CEAEA8D'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -496,7 +463,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/7dnhk4R.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=8fOZm98k3T8&list=PL5637CF7347D31A9D'
@@ -572,7 +539,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbw7ai5ZokRmXQDQezmDvs_EXlIBbRZMNoNOaARqEPTBtnSbR</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=qmxro3w79dw&list=PLXTobIohjBt1Axz007RFi9VV6YUNOdQLc'
@@ -646,7 +613,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/o3XoPyk.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=DvLMLI7uAJo&list=PLo2d3ptdDKtyROMCq8clQXct2Xh4E_v15'
@@ -796,7 +763,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/zTYFW3w.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=iGlIcc6WjFs&list=PLE6429A02A41694CC'
@@ -873,10 +840,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://yt3.ggpht.com/-8GsACYASEAg/AAAAAAAAAAI/AAAAAAAAAAA/SovEUwEiFMM/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/channel/UCs_eWcBrA51dK2uG2VyB3Pg/videos'
+url = 'https://www.youtube.com/watch?v=XQnU7iPwfCQ&list=UUs_eWcBrA51dK2uG2VyB3Pg&index=1'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  

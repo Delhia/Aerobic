@@ -1,102 +1,152 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<item>
-<title>Clase de PILATES FUSIÓN en casa con César Millán</title>        
-<urlsolve>https://www.youtube.com/watch?v=GI1kAygEPIQ</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
 
 <item>
-<title>Pilates Abs, Butt and Thigh Workout - Intense Pilates Workout for Lower Body & Core</title>        
-<urlsolve>https://www.youtube.com/watch?v=4thujUsx9pI</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
+<title>[B][COLOR lime]Pilates en casa con Maria Plaza Carrasco[/COLOR][/B]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/SXOrSJz.png?1</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=rxuMTd07kmQ&list=UUycn62hXkkkmGeACTnMR9jA&index=1'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/SXOrSJz.png?1</thumbnail>
+<fanart>https://i.imgur.com/SXOrSJz.png?1</fanart>
 </item>
 
-<item>
-<title>Clase completa de pilates</title>        
-<urlsolve>https://www.youtube.com/watch?v=0S7xWexc_oE&t=580s</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
 
 <item>
-<title>Pilates Abs, Butt and Thigh Workout - Intense Pilates Workout for Lower Body & Core</title>        
-<urlsolve>https://www.youtube.com/watch?v=4thujUsx9pI&t=454s</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
+<title>[B][COLOR lime][/COLOR][/B]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/SP9xiir.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=fwp6_32goVs&list=UUfZC-jfXYzQtDHVRAsRfElg&index=1'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/SP9xiir.jpg</thumbnail>
+<fanart>https://i.imgur.com/SP9xiir.jpg</fanart>
 </item>
 
-<item>
-<title>30 min Clase de Yoga y Pilates para principiantes </title>        
-<urlsolve>https://www.youtube.com/watch?v=D81xoWlPkhM</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
 
-<item>
-<title>Guía esencial del pilates</title>        
-<urlsolve>https://www.youtube.com/watch?v=yH2CcfoiOZ0&t=332s</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>CLASES DE PILATES: Iniciación</title>        
-<urlsolve>https://www.youtube.com/watch?v=meFqtx5H7N0</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>Clase completa de Pilates (nivel intermedio)</title>        
-<urlsolve>https://www.youtube.com/watch?v=K3ptq75wW4E</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>Clase COMPLETA de Pilates</title>        
-<urlsolve>https://www.youtube.com/watch?v=jDyx45S_tRk</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>Sesión de Pilates en casa</title>        
-<urlsolve>https://www.youtube.com/watch?v=-CJCvd031sw</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>Practica pilates en casa</title>        
-<urlsolve>https://www.youtube.com/watch?v=3cgFF5KJVAY</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>Yoga, clase completa </title>        
-<urlsolve>https://www.youtube.com/watch?v=ydORW-IH0EY</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>Vive tu Cuerpo-Pilates 30'</title>        
-<urlsolve>https://www.youtube.com/watch?v=cxwtR32Dvzk</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
-
-<item>
-<title>Body Balance</title>        
-<urlsolve>https://www.youtube.com/watch?v=6pzY1NWRzU0</urlsolve>
-<thumbnail>https://i.imgur.com/EbJCz62.png</thumbnail>
-<fanart>https://i.imgur.com/hSvYKbD.jpg</fanart>
-</item>
 
 <item>
 <title></title>        

@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[B][COLOR fuchsia]ZONA GYM VIRTUAL[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]GymVirtual By Patry Jordan[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -15,7 +15,7 @@
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/Koo2Ejf.jpg</fanart>
+<fanart>https://i.imgur.com/hRznN7Z.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=TYWEHD11bnM&list=UUfwP2H1CDJvssk6g2pm8EgA&index=1'
