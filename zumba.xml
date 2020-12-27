@@ -13,7 +13,7 @@
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/5ECG9xJ.jpg</fanart>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=WyGRKtf8CZg&list=PLkzQ_gL7fD9QgOGCgJIFs-WGYl_2x5_AR&index=1'
+url = 'https://www.youtube.com/watch?v=WyGRKtf8CZg&list=PLkzQ_gL7fD9QgOGCgJIFs-WGYl_2x5_AR'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
