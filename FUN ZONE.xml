@@ -302,7 +302,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://www.uncp.pe/images/blog_images/yoga_1.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=uEKfCoUtGdw&list=PLkzQ_gL7fD9SPW25js7UJZhs6bB1Vf6Sg'
+url = 'https://www.youtube.com/watch?v=Ca0o1Zdj-1A&list=PLkzQ_gL7fD9SPW25js7UJZhs6bB1Vf6Sg'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
