@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[COLOR fuchsia]ZONA FITNESS DANCE[/COLOR]</title>
+<title>[COLOR fuchsia]ZONA FITNESS DANCE[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/GWyg3g0.png</thumbnail>
 <fanart>https://i.imgur.com/dsrhcF7.jpg</fanart>
 <link>http://ignoreme</link>
@@ -11,7 +11,7 @@
 </item>
 
 <item>
-<title>[COLOR aqua]ZONA KIDS[/COLOR]</title>
+<title>[COLOR aqua]ZONA KIDS[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/tbUasn8.png</thumbnail>
 <fanar>thttps://i.imgur.com/NVXpo9V.png></fanart>
 <link>http://ignoreme</link>
@@ -19,7 +19,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]ZONA COMBAT[/COLOR]</title>
+<title>[B][COLOR lime]ZONA COMBAT[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/rrkukzY.jpg</thumbnail>
 <fanart>https://i.imgur.com/rrkukzY.jpg</fanart>
 <link>http://ignoreme</link>
@@ -27,7 +27,7 @@
 </item>
 
 <item>
-<title>[COLOR gold]ZONA INDOOR[/COLOR]</title>
+<title>[B][COLOR gold]ZONA INDOOR[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/FXRDejI.png</thumbnail>
 <fanart>https://i.imgur.com/dFSCL8E.jpg</fanart>
 <link>http://ignoreme</link>
@@ -37,7 +37,7 @@
 
 
  <item>
-<title>[COLOR violet]ZONA GYM VIRTUAL[/COLOR]</title>
+<title>[B][COLOR violet]ZONA GYM VIRTUAL[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/eBCgB3x.jpg</thumbnail>
 <fanart>https://i.imgur.com/eBCgB3x.jpg</fanart>
 <link>http://ignoreme</link>
@@ -45,7 +45,7 @@
 </item>
 
 <item>
-<title>[COLOR fuchsia]ZONA MEDITACION[/COLOR]</title>
+<title>[B][COLOR fuchsia]ZONA MEDITACION[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/QOyGR5T.png</thumbnail>
 <fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
 <link>http://ignoreme</link>
@@ -55,7 +55,7 @@
 
 
 <item>
-<title>[COLOR aqua]INTEGRA SPORT[/COLOR]</title>
+<title>[B][COLOR aqua]INTEGRA SPORT[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/GuQ8nIs.png</thumbnail>
 <fanart>https://i.imgur.com/MXsK7ek.jpg</fanart>
 <link>http://ignoreme</link>
@@ -63,7 +63,7 @@
 </item>
 
 <item>
-<title>[COLOR lime]TUS CLASES DE BAILE[/COLOR]</title>
+<title>[B][COLOR lime]TUS CLASES DE BAILE[/COLOR]</title>
 <thumbnail>https://i.imgur.com/szdZqpr.jpg</thumbnail>
 <fanart>https://i.imgur.com/szdZqpr.jpg</fanart>
 <link>http://ignoreme</link>
@@ -71,7 +71,7 @@
 </item>
 
 <item>
-<title>[COLOR gold]DEFENSA PERSONAL[/COLOR]</title>
+<title>[B][COLOR gold]DEFENSA PERSONAL[/COLOR]</title>
 <thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
 <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
 <link>http://ignoreme</link>
@@ -79,9 +79,9 @@
 </item>
 
 <item>
-<title>[COLOR violet]FISIOTERAPIA A TU ALCANCE[/COLOR]</title>
-<thumbnail>https://i.imgur.com/YGttUZj.jpg</thumbnail>
-<fanart>https://i.imgur.com/ge6skdc.jpg</fanart>
+<title>[B][COLOR violet]FISIOTERAPIA A TU ALCANCE[/COLOR]</title>
+<thumbnail>https://i.imgur.com/a1P0XY7.png</thumbnail>
+<fanart>https://i.imgur.com/uVggb2c.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Fisioterapia%20a%20tu%20alcance.xml</externallink>
 </item>

@@ -86,7 +86,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR lime]FITNESS GROUP[/COLOR]</title>
+<title>[B][COLOR lime]FITNESS GROUP[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/MU8M8hO.jpg</thumbnail>
 <fanart>https://i.imgur.com/L1NIAHW.jpg</fanart>
 <link>http://ignoreme</link>
