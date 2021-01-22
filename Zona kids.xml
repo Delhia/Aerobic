@@ -225,7 +225,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR plum]Soy Tippi[/COLOR][/B]</title>
+<title>[B][COLOR plum]SOY TIPPI [/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
