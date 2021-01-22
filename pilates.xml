@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[B][COLOR lime]Pilates en casa con Maria Plaza Carrasco[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]Pilates en casa con Maria Plaza Carrasco[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -75,7 +75,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime][/COLOR][/B]</title>
+<title>[B][COLOR aqua]Estudio Pilates Palma[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
