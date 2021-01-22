@@ -88,7 +88,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</fanart>
+<fanart>https://i.imgur.com/4h2vyRB.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=qjkCOMRZp14&list=PL0jWOfkzaPFpQCurICIuESsnhnzWGBtcl'
@@ -147,8 +147,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/rVSyNN2.png</thumbnail>
-<fanart>https://i.imgur.com/N8KTYhv.jpg</fanart>
+<thumbnail>https://i.imgur.com/4h2vyRB.png</thumbnail>
+<fanart>https://i.imgur.com/4h2vyRB.png</fanart>
 </item>
 
 <item>

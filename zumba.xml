@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[B][COLOR pink]BAILEACTIVO[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]BAILEACTIVO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -13,7 +13,7 @@
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/5ECG9xJ.jpg</fanart>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=WyGRKtf8CZg&list=PLkzQ_gL7fD9QgOGCgJIFs-WGYl_2x5_AR'
+url = 'https://www.youtube.com/watch?v=8qhzvvWcbIE&list=UUL9N1p_OLwSlwUrbhiXTk3Q&index=2'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -81,8 +81,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR blue]ZUMBA[/COLOR][/B]</title>
-<thumbnail>https://i.imgur.com/37at4Dn.png</thumbnail>
+<title>[B][COLOR aqua]ZUMBA[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/B1mmqrP.png</thumbnail>
 <fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/Zumba%20Variado.xml</externallink>

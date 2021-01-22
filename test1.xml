@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[B][COLOR pink]CESAR MILLAN[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]CESAR MILLAN[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -86,7 +86,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime]FITNESS GROUP[/COLOR][/B]</title>
+<title>[B][COLOR aqua]FITNESS GROUP[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/MU8M8hO.jpg</thumbnail>
 <fanart>https://i.imgur.com/L1NIAHW.jpg</fanart>
 <link>http://ignoreme</link>
@@ -102,8 +102,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>[B][COLOR gold]AEROBIC STEP VARIADO[/COLOR][/B]</title>
+<item>[B][COLOR lime]AEROBIC STEP VARIADO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
