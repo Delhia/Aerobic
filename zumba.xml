@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-
-
 <item>
 <title>[B][COLOR fuchsia]BAILEACTIVO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
@@ -12,6 +10,7 @@
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
 <fanart>https://i.imgur.com/5ECG9xJ.jpg</fanart>
+]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/channel/UCL9N1p_OLwSlwUrbhiXTk3Q'
 import re,requests,xbmc
@@ -69,10 +68,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/5ECG9xJ.jpg</thumbnail>
+<thumbnail></thumbnail>
 <fanart>https://i.imgur.com/5ECG9xJ.jpg</fanart>
 </item>
-
 
 
 
