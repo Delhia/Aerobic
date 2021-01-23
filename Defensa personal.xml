@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[B][COLOR gold]Defensa Personal Femenina[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]Defensa Personal Femenina[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]Defensa Personal Contra Armas de Fuego, Cuchillos y Palos.[/COLOR][/B]</title>
+<title>[B][COLOR aqua]Defensa Personal Contra Armas de Fuego, Cuchillos y Palos.[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -150,7 +150,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]Defensa Personal Técnicas en Español.[/COLOR][/B]</title>
+<title>[B][COLOR lime]Defensa Personal Técnicas en Español.[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -222,7 +222,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR gold]Curso Defensa Personal Krav Maga.[/COLOR][/B]</title>
+<title>[B][COLOR plum]Curso Defensa Personal Krav Maga.[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -368,7 +368,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR gold]Defensa Personal Callejera, Técnica defensiva dentro de un Coche.[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]Defensa Personal Callejera, Técnica defensiva dentro de un Coche.[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -444,7 +444,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]Aprende a defenderte[/COLOR][/B]</title>
+<title>[B][COLOR aqua]Aprende a defenderte[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -516,7 +516,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR gold]Defensa personal[/COLOR][/B]</title>
+<title>[B][COLOR lime]Defensa personal[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -588,7 +588,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR gold]Defensa personal.Consejos[/COLOR][/B]</title>
+<title>[B][COLOR plum]Defensa personal.Consejos[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
