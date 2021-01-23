@@ -304,7 +304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR fuchsia]KIZOMBA[/COLOR][/B]</title>
+<title>[B][COLOR gold]KIZOMBA[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -380,7 +380,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR aqua]MERENGUE[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]MERENGUE[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -455,7 +455,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime]OSKORRI[/COLOR][/B]</title>
+<title>[B][COLOR aqua]OSKORRI[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -531,7 +531,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR plum]SALSA[/COLOR][/B]</title>
+<title>[B][COLOR lime]SALSA[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -605,7 +605,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]SEVILLANAS[/COLOR][/B]</title>
+<title>[B][COLOR plum]SEVILLANAS[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -680,7 +680,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR fuchsia]SHUFFLE[/COLOR][/B]</title>
+<title>[B][COLOR gold]SHUFFLE[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -755,7 +755,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR aqua]TANGO[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]TANGO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -832,7 +832,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime]TORREZDANCE(BAILES VARIADOS)[/COLOR][/B]</title>
+<title>[B][COLOR aqua]TORREZDANCE(BAILES VARIADOS)[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>

@@ -100,9 +100,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
-<item>[B][COLOR lime]AEROBIC STEP VARIADO[/COLOR][/B]</title>
+<item>
+<title>[B][COLOR lime]AEROBIC STEP VARIADO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>

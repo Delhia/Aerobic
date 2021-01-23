@@ -3,7 +3,7 @@
 <SetViewMode>503</SetViewMode>
 
 <item>
-<title>[COLOR fuchsia]Body Combat[/COLOR]</title>
+<title>[COLOR fuchsia]BODY COMBAT[/COLOR]</title>
 <thumbnail>https://i.imgur.com/IrpGuPB.jpg</thumbnail>
 <fanart>https://i.imgur.com/w02e6sM.jpg</fanart>
 <link>http://ignoreme</link>
@@ -12,7 +12,7 @@
 
 
 <item>
-<title>[B][COLOR aqua]Piloxing[/COLOR][/B]</title>
+<title>[B][COLOR aqua]PILOXING[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -86,7 +86,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime]Aerobox BoomBox[/COLOR][/B]</title>
+<title>[B][COLOR lime]AEROBOX BOOMBOX[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>

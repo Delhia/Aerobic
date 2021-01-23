@@ -2,7 +2,7 @@
 
 
 <item>
-<title>[B][COLOR fushia]ZUMBA with Dovydas CANAL[/COLOR][/B]</title>
+<title>[B][COLOR fushia]ZUMBA WITH DOVYDAS[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -81,7 +81,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
  <item>
-<title>[B][COLOR aqua]FitDance Life[/COLOR][/B]</title>
+<title>[B][COLOR aqua]FITDANCE LIFE[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -157,7 +157,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
  
 <item>
-<title>[B][COLOR lime]ZUMBA RedStudio[/COLOR][/B]</title>
+<title>[B][COLOR lime]ZUMBA REDSTUDIO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -234,7 +234,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR plum]Saskia's Dansschool[/COLOR][/B]</title>
+<title>[B][COLOR plum]SASKIA'S DANSSCHOOL[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -311,7 +311,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]Tássio Santos[/COLOR][/B]</title>
+<title>[B][COLOR gold]TASSIO SANTOS[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -384,7 +384,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR fuchia]BoomBox[/COLOR][/B]</title>
+<title>[B][COLOR fuchia]BOOMBOX[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -458,7 +458,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR aqua]Zumba Variado[/COLOR][/B]</title>
+<title>[B][COLOR aqua]ZUMBA VARIADO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -535,7 +535,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime]Zumba Step[/COLOR][/B]</title>
+<title>[B][COLOR lime]ZUMBA STEP[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -613,7 +613,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR plum]Zumba Strong[/COLOR][/B]</title>
+<title>[B][COLOR plum]ZUMBA STRONG[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -686,7 +686,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]Zumba Comba[/COLOR][/B]</title>
+<title>[B][COLOR gold]ZUMBA COMBA[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -759,7 +759,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR fuchsia]Kangoo Jumps[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]KANGOO JUMPS[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -834,7 +834,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR aqua]Fitness Dance Flamenco[/COLOR][/B]</title>
+<title>[B][COLOR aqua]FITNESS DANCE FLAMENCO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>

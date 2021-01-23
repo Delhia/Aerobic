@@ -3,7 +3,7 @@
 <SetViewMode>503</SetViewMode>
 
 <item>
-<title>[B][COLOR lime]PILATES[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]PILATES[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/tMdp8NZ.png</thumbnail>
 <fanart>https://i.imgur.com/jzG5lzl.jpg</fanart>
 <link>http://ignoreme</link>
@@ -11,7 +11,7 @@
 </item>
 
 <item>
-<title>[B][COLOR gold]YOGA[/COLOR][/B]</title>
+<title>[B][COLOR aqua]YOGA[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/zZ11Q5a.png</thumbnail>
 <fanart>https://i.imgur.com/mQb1rmV.jpg</fanart>
 <link>http://ignoreme</link>
@@ -19,7 +19,7 @@
 </item>
 
 <item>
-<title>[B][COLOR violet]TAICHI[/COLOR][/B]</title>
+<title>[B][COLOR lime]TAICHI[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -94,7 +94,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime]BODY BALANCE[/COLOR][/B]</title>
+<title>[B][COLOR plum]BODY BALANCE[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -170,7 +170,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR aqua]ESPALDA SANA[/COLOR][/B]</title>
+<title>[B][COLOR gold]ESPALDA SANA[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>

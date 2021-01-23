@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR lime]Fit Combat[/COLOR]</title>
+<title>[COLOR lime]FIT COMBAT[/COLOR]</title>
 <thumbnail>https://i.imgur.com/CG1agSN.png</thumbnail>
 <fanart>https://i.imgur.com/w02e6sM.jpg</fanart>
 <link>http://ignoreme</link>
@@ -11,7 +11,7 @@
 
 
 <item>
-<title>[B][COLOR aqua]Body Combat Variado[/COLOR][/B]</title>
+<title>[B][COLOR aqua]BODY COMBAT VARIADO[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -83,7 +83,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR lime]Aefa Les Mills[/COLOR][/B]</title>
+<title>[B][COLOR lime]AEFA LES MILLES[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>

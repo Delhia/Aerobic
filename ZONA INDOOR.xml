@@ -5,7 +5,7 @@
 
 
 <item>
-<title>[B][COLOR lime]Eliptica[/COLOR][/B]</title>
+<title>[B][COLOR fuchsia]ELIPTICA[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -79,7 +79,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]Spinnig[/COLOR][/B]</title>
+<title>[B][COLOR aqua]SPINNING[/COLOR][/B]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
