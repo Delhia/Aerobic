@@ -14,7 +14,7 @@
 
 
 <item>
-<title>[B][COLOR aqua]ZUMBA VARIADO[/COLOR][/B</title>
+<title>[B][COLOR aqua]ZUMBA VARIADO[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
