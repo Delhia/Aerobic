@@ -56,7 +56,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 import re,urllib
 def GetLSProData(page_data,Cookie_Jar,m):
-  source=urllib.urlopen('https://www.youtube.com/playlist?list=qjkCOMRZp14&list=PL0jWOfkzaPFpQCurICIuESsnhnzWGBtcl').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
+  source=urllib.urlopen('https://www.youtube.com/playlist?list=PL0jWOfkzaPFpQCurICIuESsnhnzWGBtcl').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
   vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
   title=re.findall('"title":.*?text":"([^"]+)',source)
   return zip(title,vID)
@@ -169,7 +169,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 import re,urllib
 def GetLSProData(page_data,Cookie_Jar,m):
-  source=urllib.urlopen('https://www.youtube.com/playlist?list=LmzfT6Gv4fo&list=PLkzQ_gL7fD9TORB1msehi9Aesnw9lHFmG').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
+  source=urllib.urlopen('https://www.youtube.com/playlist?list=PLkzQ_gL7fD9TORB1msehi9Aesnw9lHFmG').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
   vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
   title=re.findall('"title":.*?text":"([^"]+)',source)
   return zip(title,vID)
