@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[B][COLOR fuchsia]CESAR MILLAN[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+  <link>$doregex[jd]</link>
+  <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ <fanart>https://i.imgur.com/Vpl2Smb.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,urllib
+def GetLSProData(page_data,Cookie_Jar,m):
+  source=urllib.urlopen('https://www.youtube.com/playlist?list=PLkzQ_gL7fD9Tlx5EGpkk39zLyu0RSv_qo').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
+  vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
+  title=re.findall('"title":.*?text":"([^"]+)',source)
+  return zip(title,vID)
+]]></expres>
+<page></page>
+</regex>  
+<regex>
+<name>jd</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import resolveurl
+   url = 'https://youtu.be/[makelist.param2]'
+   u = resolveurl.resolve(url)
+   return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/Vpl2Smb.jpg</thumbnail>
+<fanart>https://i.imgur.com/Vpl2Smb.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR aqua]FITNESS GROUP[/COLOR][/B]</title>
+<thumbnail>https://i.imgur.com/MU8M8hO.jpg</thumbnail>
+<fanart>https://i.imgur.com/L1NIAHW.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Delhia/Aerobic/master/FITNESS%20GROUP.xml</externallink>
+</item>
+
+
+<item>
+<title>[B][COLOR lime]AEROBIC STEP VARIADO[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+  <link>$doregex[jd]</link>
+  <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ <fanart>https://i.imgur.com/PqT8nYO.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,urllib
+def GetLSProData(page_data,Cookie_Jar,m):
+  source=urllib.urlopen('https://www.youtube.com/playlist?list=PLkzQ_gL7fD9S4GQtjH3Yq3mLWVOVhJbo3').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
+  vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
+  title=re.findall('"title":.*?text":"([^"]+)',source)
+  return zip(title,vID)
+]]></expres>
+<page></page>
+</regex>  
+<regex>
+<name>jd</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import resolveurl
+   url = 'https://youtu.be/[makelist.param2]'
+   u = resolveurl.resolve(url)
+   return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/PBk5NX1.jpg</thumbnail>
+<fanart>https://i.imgur.com/PqT8nYO.png</fanart>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://i.imgur.com/HCS3bZT.png</thumbnail>
+<fanart>https://us.123rf.com/450wm/miceking/miceking1512/miceking151200296/49571602-icono-de-aerobic.jpg?ver=6</fanart>
+</item>
+
+
+
+
+
+
+
