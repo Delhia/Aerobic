@@ -27,7 +27,31 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/5ECG9xJ.jpg</fanart>
 </item>
 
-
+<item>
+<title>[B][COLOR aqua]BALLET FIT[/COLOR][/B]</title>   
+<link>$doregex[makelist]</link>
+<regex><name>makelist</name>
+<listrepeat><![CDATA[  
+<title>[COLOR white]* [COLOR white][makelist.param3][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/btDb1qo.jpg</fanart>
+]]></listrepeat>
+<expres>(?s)":\[{"url":"(https://i.ytimg.com/vi/(.*?)/hqdefault.jpg).*?label":"(.*?)\-.*?</expres>
+<page>https://www.youtube.com/channel/UCJCihoV26JG3XMOFt-Bk5EA</page>
+</regex>  
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import re,urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+  return urlresolver.resolve('https://youtu.be/[makelist.param2]')
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/btDb1qo.jpg</thumbnail>
+<fanart>https://i.imgur.com/btDb1qo.jpg</fanart>
+</item>
 
 
 
@@ -36,7 +60,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR aqua]ZUMBA[/COLOR][/B]</title>
+<title>[B][COLOR lime]ZUMBA[/COLOR][/B]</title>
 <thumbnail>https://i.imgur.com/B1mmqrP.png</thumbnail>
 <fanart>https://i.imgur.com/fjcn0OD.jpg</fanart>
 <link>http://ignoreme</link>
@@ -46,7 +70,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR lime]KPOK FITNESS[/COLOR][/B]</title>
+<title>[B][COLOR plum]KPOK FITNESS[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
