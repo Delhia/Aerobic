@@ -5,7 +5,7 @@
 
 
 <item>
-<title>[B][COLOR pink]MALOVAELENA[/COLOR][/B]</title> 
+<title>[B][COLOR fuchsia]MALOVAELENA[/COLOR][/B]</title> 
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
@@ -35,7 +35,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR pink]XUAN LAN YOGA[/COLOR][/B]</title>   
+<title>[B][COLOR aqua]XUAN LAN YOGA[/COLOR][/B]</title>   
 <link>$doregex[makelist]</link>
 <regex><name>makelist</name>
 <listrepeat><![CDATA[  
