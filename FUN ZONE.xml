@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-<SetViewMode>503</SetViewMode>
+
 
 <item>
 <title>[COLOR pink]BAILE CON LENGUAJE DE SIGNOS[/COLOR]</title>
@@ -80,7 +80,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/xIQEfh1.jpg</thumbnail>
+<thumbnail>https://imgur.com/jho6bun</thumbnail>
 <fanart>https://i.imgur.com/lQ6RMTP.jpg</fanart>
 </item>
 
@@ -217,41 +217,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>[COLOR blue]FEDC[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
-  <link>$doregex[jd]</link>
-  <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- <fanart></fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,urllib
-def GetLSProData(page_data,Cookie_Jar,m):
-  source=urllib.urlopen('https://www.youtube.com/playlist?list=PLkzQ_gL7fD9TfJmoYC4nTRoe9XMxNWIX7').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
-  vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
-  title=re.findall('"title":.*?text":"([^"]+)',source)
-  return zip(title,vID)
-]]></expres>
-<page></page>
-</regex>  
-<regex>
-<name>jd</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import resolveurl
-   url = 'https://youtu.be/[makelist.param2]'
-   u = resolveurl.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
 
 
 <item>

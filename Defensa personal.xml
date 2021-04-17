@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-<item>
-<title></title>PLAYLIST
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
-  <link>$doregex[jd]</link>
-  <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
- <fanart></fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,urllib
-def GetLSProData(page_data,Cookie_Jar,m):
-  source=urllib.urlopen('https://www.youtube.com/playlist?list=PLz1myZpL_4ExaiHWR2gPUbAmajpBLFpLx').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
-  vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
-  title=re.findall('"title":.*?text":"([^"]+)',source)
-  return zip(title,vID)
-]]></expres>
-<page></page>
-</regex>  
-<regex>
-<name>jd</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-   import resolveurl
-   url = 'https://youtu.be/[makelist.param2]'
-   u = resolveurl.resolve(url)
-   return u
-]]></expres>
-<page></page>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
 
 <item>
 <title>[B][COLOR fuchsia]Defensa Personal Femenina[/COLOR][/B]</title>
@@ -439,5 +404,39 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
+<item>
+<title>[B][COLOR gold]Aprender ATAQUES BÁSICOS en Krav Maga - TUTORIAL EN ESPAÑOL[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold]+[/COLOR][COLOR white][makelist.param1][/COLOR]</title>
+  <link>$doregex[jd]</link>
+  <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+ <fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,urllib
+def GetLSProData(page_data,Cookie_Jar,m):
+  source=urllib.urlopen('https://www.youtube.com/playlist?list=PLsdhqmqbkMdHqX6gr1Qs08rgWeTHG8aHQ').read().replace('amp;','').replace('#038;','').replace('&#39;','\'').replace('&quot;','"')
+  vID=re.findall('"playlistVideoRenderer".*?Id":"([^"]+)',source)
+  title=re.findall('"title":.*?text":"([^"]+)',source)
+  return zip(title,vID)
+]]></expres>
+<page></page>
+</regex>  
+<regex>
+<name>jd</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import resolveurl
+   url = 'https://youtu.be/[makelist.param2]'
+   u = resolveurl.resolve(url)
+   return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/nZTV8EI.jpg</thumbnail>
+<fanart>https://i.imgur.com/sToFk4g.jpg</fanart>
+</item>
  
